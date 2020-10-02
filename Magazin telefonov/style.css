@@ -1,0 +1,329 @@
+body {
+	background-color: #f8f8f8; /* цвет фона */
+}
+
+ul {
+	list-style-type: none; /* убирает точки в списке */
+}
+
+a {
+	color: #666666; /*цвет сылки*/
+	text-decoration: none; /* без подчеркивание ссылки */  
+} 
+
+/* верхний заголовок */
+h1 {
+	background-color: #7B68EE; /* цвет фона */
+	text-align: center;
+}
+
+/* подзаголовок  */
+h2 {
+	background-color: #ADD8E6;
+	text-align: center;
+}
+
+/* заголовки в тексте в телефоне и наушниках */
+h3 {
+	color: black; /*цвет текста*/
+	font-size: 18px; /* размер шрифта */
+	font-weight: 400; /* насыщенность шрифта */
+	overflow: hidden; /* отображается только область внутри элемента, остальное будет скрыто */
+}
+
+/*ГЛАВНАЯ СТРАНИЦА*/
+
+.table {
+	border: 1px solid #000;
+	height: 200px;
+	padding: 5px;
+	border-spacing: 10px; /* внешний отступ */ /*расстояние между рамками*/
+}
+
+.table td {
+	border: 1px solid #000;
+	padding-left: 10px; /* внутренний отступ */ /* расстояние внутри рамки */ 
+	text-align: center;
+}
+
+/*слово "харастеристика айфонов" в таблице*/
+.harakteristika {
+	padding: 15px;
+	font-size: 18px;
+}
+
+/*первые буква в тексте после таблицы*/
+.text:first-letter {
+	font-size: 30px;
+	color: brown;
+}
+
+/*заголовки в телефоне и наушниках*/
+.text-produkta {
+	background-color: #ADD8E6; 
+}
+
+/*первая буква в заголовках в телефоне и наушниках*/
+.text-produkta:first-letter {
+	font-size: 30px;
+	color: brown;
+}
+
+/* заголовки в разделе подробное описание товара телефоне и наушниках*/
+.text-produkta-podr {
+	background-color: #ADD8E6; 
+	clear: both; 
+}
+
+/* первая буква заголовка в разделе подробное описание товара телефоне и наушниках*/
+.text-produkta-podr:first-letter {
+	font-size: 30px;
+	color: brown;
+}
+
+/* кнопка на страницах телефон и наушники при наведении */
+button:hover {
+	background-color: #1dabf2; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+/* кнопка на страницах телефон и наушники при нажатии */
+button:active {
+  background-color: #7B68EE; /* Цвет ссылки при активации (при нажатии) */  
+}
+
+/*контейнер на всех страницах*/
+.container {
+	width: 1250px; /* ширина блока */  
+	margin: 0 auto; /*по центру */
+}
+
+/*шапка на всех страницах*/
+.header {
+	height: 450px; /* высота блока */
+	background: url(img/fon.jpg); /* картинка к шапке */
+	background-size: 100%;
+}
+
+/*главный логотип на всех страницах*/
+.img {
+	border: 3px solid #336699; 
+	border-radius: 50%; /* сделать из квадратной эмблемы круглую */
+	width: 350px;
+	margin: 10px 25px;
+	float: left; /* Выравнивает элемент по левому краю, а все остальные элементы, 
+	вроде текста, обтекают его по правой стороне. */
+}
+
+.menu {  
+	float: right; /* отменяет обтекание */
+	background-color: #00BFFF;
+	background: none; 
+}
+
+.menu li {       
+	font-size: 20px; /* размер шрифта */
+	font-style: italic; /* начертание шрифта */
+	width: 200px; /*ширина*/
+	height: 30px; /*высотка*/
+	border: 1px solid #DAEFF3;
+	text-align: center;
+	background-color: #ADD8E6;
+	border-radius: 10px;
+	padding: 10px; /* отступ внутри таблички */
+	margin: 0px 20px;
+	float: left;
+}
+
+/*меню при наведении*/
+.menu li a:hover {
+  color: #1dabf2; /* Цвет ссылки при наведении на нее курсора мыши */  
+}
+
+/*меню при нажатии*/
+.menu li a:active {
+  color: #7B68EE; /* Цвет ссылки при активации */  
+}
+
+/* при наведении на ссылку в меню после ссылки появляется контент */
+.menu li:hover:after {
+  	content: " >> ";
+	color: blueviolet;
+}
+
+/* подвал на всех страницах */
+.footer {
+	background-color: #B0C4DE;
+	height: 180px;
+	text-align: right;
+}
+
+/*картинка в подвале всех страниц*/
+.footer img {
+	width: 80px;
+}
+
+/*надпись в подвале на всех страниц*/
+.copy {
+	padding: 30px 40px 0 0;
+}
+
+/* картинки у списков в характеристике товаров в телефоне*/
+.li-img {
+	list-style-image: url(img/114.png);
+}
+
+/*картинка на страницах телефон и наушники*/
+.img-kartinka {
+	outline: 3px solid #336699; 
+	width: 250px;
+	float: left;
+	margin: 0px 20px 20px 5px; /* Поочередно устанавливается отступ от верхнего, 
+	правого, нижнего и левого края. */
+}
+
+/*картинка на страницах телефон и наушники при наведении*/
+.img-kartinka:hover {
+	outline: none; /* при наведении рамка исчезает */
+}
+
+/* краткое описание товара в телефоне и наушниках*/
+.kratkoe {
+	color: #707070; /*цвет текста*/
+	font-size: 14px; /* размер шрифта */
+	font-style: italic; /* начертание шрифта */
+	line-height: 16px; /* высота текста*/ ​
+}
+
+/* подробное описание товара в телефоне и наушниках*/
+.podrobnoe {
+	color: #484343; /*цвет текста*/
+	font-size: 16px; /* размер шрифта */
+	font-weight: 400; /* насыщенность шрифта */
+	line-height: 24px; /* высота текста*/ ​ 
+	text-align: left; /* нужно чтобы рамка работала */
+	border: 2px solid darkblue;  /* рамка */
+}
+
+/* ссылка гикбрейнс на страницах телефон, наушники и аксессуары*/
+.link {
+	text-transform: uppercase; /* все буквы ссылки заглавные  */
+	color: blue;
+	/* text-transform: lowercase; */ /* все буквы ссылки маленькие */
+}
+
+/* СТРАНИЦА КОНТАКТЫ */
+
+/*форма*/
+form {
+	margin: 0 auto; /* по центру */
+	border: 2px solid #1E90FF;  /* рамка */
+	width: 500px;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+/*поле для ввода для имени, имейла и телефона*/
+input[type="text"],[type="email"],[type="telephone"]{
+	width:255px;
+	height: 24px;
+	font-size: 15px;
+	text-align: center;
+	color: #336699;
+	border-radius: 5px;
+	text-transform: capitalize; /* с большой буквы каждое слово */
+}
+
+/* кнопки отправить и отмена */
+input[type="submit"],[type="reset"] {
+	width:130px;
+	height: 35px;
+}
+
+/* При нажатии на имя поле меняет цвет */
+input[type="text"]:focus {
+	background-color: #B0E0E6; 
+}	
+
+/* При нажатии на имейл поле меняет цвет */
+input[type="email"]:focus {
+	background-color: #B0E0E6; 
+	color: #8A2BE2;
+}	
+
+/* При нажатии на телефон поле меняет цвет */
+input[type="telephone"]:focus {
+	background-color: #B0E0E6; 
+}	
+
+/* При нажатии на поле "текст сообщения"" поле меняет цвет */
+textarea:focus {
+	background-color: #B0E0E6; 
+}
+
+/* При нажатии на кнопку отправить поле меняет цвет */
+input[type="submit"]:focus {
+	background-color: #B0E0E6; 
+}
+
+/* При нажатии на кнопку отмена поле меняет цвет */
+input[type="reset"]:focus {
+	background-color: #B0E0E6; 
+}
+
+/*текст сообщения*/
+textarea {
+	color: #336699;
+	font-size: 15px;
+	border-radius: 5px; 
+}
+
+/* отзыв */
+select {
+	width: 262px;
+	height: 24px;
+	border-radius: 5px;
+}
+
+/* карта */
+iframe {
+	width: 100%;
+	height: 374px;
+}
+
+/* КАТАЛОГ */
+
+/* отступ между картинками */
+
+/*список товаров*/
+.list {
+	display: flex; /*в одну линию стали элементы*/
+}
+
+.list li {
+	margin: 15px;  
+}
+
+.list li:after {
+	content: " акция!";
+	color: blueviolet;
+	text-transform: uppercase;
+}
+
+.list li a {
+	font-size: 25px; /* размер шрифта */
+	display: block; /*происходит перенос строк в начале и в конце содержимого*/
+}
+
+/*картинки*/
+.product_img {
+	outline: 3px solid #336699; /*рамка*/ 
+	width: 150px;
+	padding: 10px 10px; /*внутренние отступы в рамке*/
+}
+
+/*картинки при наведении*/
+.product_img:hover {
+	outline: none; /* при наведении рамка исчезает */
+	width: 300px; /* увеличивается в размере при наведении */
+}
