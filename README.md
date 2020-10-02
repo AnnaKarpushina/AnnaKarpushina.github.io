@@ -3,4 +3,4 @@
 Мой первый опубликованный сайт)
 
 [Верстка на будстреп](https://annakarpushina.github.io/Верстка%20будстреп/)
-[Orfogragia](https://annakarpushina.github.io/Orfogragia/)
+[Orfografia](https://annakarpushina.github.io/Orfografia/)
