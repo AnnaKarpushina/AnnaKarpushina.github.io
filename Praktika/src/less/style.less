@@ -1,0 +1,430 @@
+/* Fonts family */
+@font-face {
+    font-family: 'ProximaNova_Regular';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNovaRegular-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova_Bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.Regular(){
+	font-family: 'ProximaNova_Regular', sans-serif;
+}
+
+.Bold(){
+	font-family: 'ProximaNova_Bold', sans-serif;
+}
+
+body {
+	.Regular();
+}
+
+a:hover {
+	text-decoration: none; /*убираем подчеркивание у номера телефона*/
+}
+
+button, input, a, textarea{
+	&:focus {
+		/* none- отменяет все эффекты, в том числе и подчеркивания 
+		у ссылок, которое задано по умолчанию */
+		outline: none; /*без обводки при наведении*/
+	}
+}
+
+/* Colors */
+@btn-color:#fbb202;
+@icon-color:#46b814;
+@text:#1a1820;
+@danger:#ff0000; /* предупреждающий цвет(опасность) */
+@bg-light:#f5f5f5;
+@light:#fff;
+@border-input:#dddddd;
+
+/* Basic setting */
+html {
+	font-size: 10px;
+}
+
+.button {
+	padding: 1rem 3rem;
+	border-radius: 8px; /*Закругление от будстреп*/
+	font-size: 1.2rem; 
+	background-color:@btn-color;
+	color:@light;
+	text-transform: uppercase;
+	border:none; /* Убрать рамку с кнопки */
+	transition: all 0.2s; /* плавно изменяться*/ /* all-все свойства */
+	&:hover {
+		/*cursor-устанавливает форму курсора, когда он находится в пределах элемента*/
+		cursor: pointer; 
+		/*lighten(color, percentage%)-сделать свелее чем этот цвет*/ 
+		/* background-color:lighten(@btn-color, 10%); */
+		/* darken(color, percentage%)-сделать темнее чем этот цвет */
+		background-color:darken(@btn-color, 5%);
+	} 
+}
+
+/* Typography */
+section {
+	padding: 10rem 0; /*1rem=10px*/
+}
+.section-header {
+	&_light {
+		 color:@light; 
+	}
+	h2 {
+		.Bold() ;
+		font-size: 3.6rem; 
+	}
+	p {
+		font-size:1.5rem;
+	}
+	margin: 2rem 0 10rem;
+	text-align: center;
+}
+
+/* main */
+.main {
+	padding: 3rem 0 6rem;
+	background: #fff url(../img/mail-bg.jpg) center center no-repeat;
+	background-size: cover;
+	&-content{
+		margin-top: 10rem;
+		/* Главный заголовок */
+		h1{
+			margin-top:0;
+			margin-bottom: 5rem;
+			.Bold();
+			font-size: 4rem;
+			line-height:1.45;  /* высота строки */
+			text-transform: uppercase;
+		}	
+	}
+	/* Подзаголовок */
+	&-subtitle{
+		margin-bottom: 5rem;
+		font-size: 2.4rem;
+	}
+	/* Зеленый ярлык */
+	span{
+		display: inline-block;
+		padding:3rem 5rem;
+		font-size:1.8rem;
+		color:@light;
+		background-color:@icon-color;
+		text-align: center;
+		/* Цифра 300 */
+		strong{
+			font-size:3rem;
+			.Bold();
+		}
+	}
+	/* Оплата по факту */
+	&-trigger{
+		display: block;
+		margin-top: 3.6rem;
+		font-size:2.2rem;
+		text-transform: uppercase;
+		.Bold()
+	}
+	/* Главная форма */
+	&-form{
+		padding:4rem 5rem;
+		text-align: center;
+		background-color:@light;
+		/* Заголовок формы */
+		&-header{
+			margin-bottom: 3.5rem;
+			font-size:1.8rem;
+			strong{
+				.Bold();
+			}
+		}
+		/* Поле для ввода */
+		&-input{
+			display: block;
+			margin: 2rem 0;
+			width: 100%;
+			padding:1.7rem;
+			border:1px solid @border-input;
+			border-radius:5px;
+		}
+		/* Додписи к полям */
+		label{
+			position: absolute;
+			transform: translateX(-50%) translateY(-50%);
+			padding: 0.5rem;
+			font-size:1.3rem;
+			background-color:@light;
+		}
+		/* Кнопка отправить заявку */
+		&-btn {
+			display: block;
+			height: 6rem;
+			width: 100%;
+			font-size: 1.6rem;
+		}
+		/* Подпись под кнопкой*/ 
+		small{
+			display: inline-block;
+			margin-top: 1.5rem;
+		}
+	}
+}
+
+.header {
+	height: 7rem;
+}
+
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	&-block{
+		display: table-cell; 
+		vertical-align: middle; 
+		text-align: right;
+	}
+} 
+.phone{
+	&-block{
+		text-align: right;
+	}
+	&-link {
+		display: inline-block;
+		.Bold();
+		font-size: 2rem;
+		height: 7rem;
+		line-height: 7rem;
+		color:@text;
+	}
+}
+
+/* Оформление секции с преимуществами */
+.features {
+	&-block {
+		text-align: center;
+		h3 {
+			.Bold();
+			font-size: 2rem;
+			margin-bottom: 3rem;
+		}
+		p {
+			// display: inline-block; 
+			// width: 80%; 
+			font-size: 1.6rem;
+		} 
+	}
+	&-img {
+		height: 8rem; 
+		margin-bottom: 3rem;
+		img{
+		display: block;
+		margin: 0 auto;
+		}
+	}
+}
+
+.slick-active {
+	//cвойство outline задает внешнюю границу вокруг элементов
+	outline: none;
+} 
+
+.arrow {
+ 	top:50%; /* чтобы было посередине */
+ 	position: absolute;
+ 	/* Чем больше значение, тем выше находится элемент по сравнению 
+ 	с теми элементами, у которых оно меньше */
+ 	z-index: 99; /* если убрать, то левая стрелка не работает */
+ 	width: 2rem; /* ширина стрелок */
+ 	height: 2rem; /* высота стрелок */
+ 	border: none; /* рамку убрать */
+ }
+ 
+ /* левая стрелка */
+ .prev {
+ 	left: 0;
+ 	background:url(../img/left-arrow.svg) center no-repeat;
+ 	/* Задает размер фоновой картинки в процентах от ширины 
+ 	или высоты элемента*/
+ 	background-size: 70%; /* размер стрелки */
+ }
+
+/* правая стрелка */
+ .next {
+ 	right: 0;
+ 	/* Задает размер фоновой картинки в процентах от ширины 
+ 	или высоты элемента*/
+ 	background:url(../img/right-arrow.svg) center no-repeat;
+ 	background-size: 70%; /* размер стрелки */
+ }  
+
+/* Секция с ценами */
+.price {
+	// если не откроется картинка то будет этот цвет @icon-color
+	background:@icon-color url(../img/prices/prices-bg.jpg) center;
+	&-header-btn {
+		margin-top: 2.5rem; 
+	}
+	&-button {
+		text-align: right;
+	}
+	// Карточки с тарифами
+	&-block {
+		color:#000; //черный цвет 
+		padding:1rem 3rem; 
+		min-height: 57rem; //Задает минимальную высоту элемента
+	    background-color:@light;
+		text-align: center;
+		h4 {
+			margin: 3rem 0;	
+			font-size:1.9rem;
+			.Bold();
+		}
+		img {
+			/* первые два параметра нужны, чтобы при уменьшении 
+			экрана картинки не вылезали за края */
+			width: 100%;
+			max-width: 30rem; /* Устанавливает максимальную ширину элемента */
+			margin-bottom: 2rem;
+		}
+	}
+	&-tag {
+		display: block; //это чтобы сработал отступ описанный ниже
+		margin-bottom: 2rem;
+		font-size:1.9rem;
+		.Bold();
+	}
+	&-list {
+		padding: 0; /* вверху же задали педдинги, а для списка нужно убрать */
+		list-style: none; //убираем точки у списка
+		min-height: 14rem;  //чтобы зафиксировать кнопки на одном уровне
+		font-size: 1.6rem;
+		line-height: 1.6; //межстрочный интервал
+		li {
+			// Псевдоэлемент :before применяется для отображения желаемого 
+			// контента до содержимого элемента, к которому он добавляется
+			&:before {
+				content: ''; /* Добавить что-то перед ссылками */
+				display: inline-block;
+				margin-right: 1rem; /* отступ от стрелочки */
+				/* размеры стрелочки */
+				width: 1.4rem;
+				height: 1.4rem;
+				background:url(../img/check.svg) center no-repeat;
+				/* background-size - масштабирует фоновое изображение 
+				согласно заданным размерам */
+				background-size: 100%; /* размер стрелочки */
+				/* vertical-align-Выравнивает элемент по вертикали относительно 
+				своего родителя, окружающего текста или ячейки таблицы */
+				/* middle - выравнивание средней точки элемента по базовой линии 
+				родителя плюс половина высоты родительского элемента */
+				/* vertical-align: middle; */
+			}
+		}
+	} 
+}
+
+/* Оформление модальных окон */
+.popup {	
+	display: none; /* чтобы форма при обновлении страницы не появлялась */
+	position:fixed; /* без этого затемнение экрана не делается, 
+	и продливает затемнение экрана на всю страницу */
+	/* Обнуляем, чтобы работало затемнение */
+	left: 0; 
+	top: 0; 
+	bottom: 0; 
+	right: 0; 
+	background-color:rgba(0, 0, 0, 0.5); /* насколько затемняем фон */
+	&-content {
+		position:fixed; /*нужно, а то съезжает влево*/
+		text-align: center;
+		left: 50%; /*  отступ слева */
+		top: 5%; /* отступ сверху */
+		background-color:@light; /* иначе будет серое, а не белое */
+		/* translateX(n)-сдвигает элемент относительно его 
+		обычного положения по оси X. С минусом, значит влево */
+		transform:translateX(-50%);
+		/* верх,вниз-лево,вправо */
+		padding: 4rem 6rem; 
+	}
+	&-form {
+		// Устанавливает величину отступа от верхнего края элемента
+		margin-top: 4rem; 
+		padding: 0; /* чтоб не было лишних отступов */
+	}
+	&-close {
+		/*Положение элемента задается свойствами left, top, right и 
+		  bottom, также на положение влияет значение свойства position 
+		  родительского элемента. Если у родителя значение position 
+		  задано как fixed, relative или absolute, то отсчет координат 
+		  ведется от края родительского элемента*/
+		position:absolute;
+		top: -1.5rem;
+		right: -2.5rem;
+		border:none; /* чтоб рамки не было */
+		background-color:transparent; /* прозрачность крестика */
+		font-size: 3rem; /* размер крестика */
+		color:@light;
+	}
+	&-header {
+		.Bold();
+	}
+}
+
+/* медиа запрос */
+/* то, что меньше в ширину чем 991px */
+@media (max-width: 991px)  {
+	.main {
+		/* background-position устанавливает начальную позицию для каждого 
+		фонового изображения*/
+		background-position:top right; /* картинка прижата к правому краю справа */
+	}
+	.phone-block {
+		text-align: center;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		padding-bottom: 3rem;
+		text-align: center;
+	}
+	.price {
+	 		&-button {
+	 			text-align: center;
+	 			margin-bottom: 2rem; //отступ снизу от кнопки
+	 		}
+	 		&-block {
+	 			margin-top: 2rem; //отступ сверху от кнопки
+	 		}
+	 	} 
+	}
+
+@media (max-width: 767px)  {
+	.main{
+		background-position:top left;/* картинка прижата к левому краю справа */
+	}
+	.header{
+		text-align: center;
+	}
+	.wrap-block{
+		text-align: center;
+	}
+}
