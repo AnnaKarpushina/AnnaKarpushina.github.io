@@ -1,0 +1,20 @@
+/* общие параметры страницы*/ 
+body { 
+	text-align: center; 
+	margin: 10; 
+	font-size: 16px; 
+} 
+
+h1 { 
+	font-size: 55px; 
+	text-align: center; 
+	font-weight: 900;
+} 
+
+textarea { 
+	width:50%; 
+	min-height: 150px; 
+	border: solid; /*жирность рамки*/
+	border-radius: 10px; 
+	box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
+}
