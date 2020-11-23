@@ -2,7 +2,7 @@
 # AnnaKarpushina.github.io
 Мой первый опубликованный сайт)
 
-[Shtukaturka sten](https://annakarpushina.github.io/Shtukaturka%20sten/)
+[Shtukaturka Sten](https://annakarpushina.github.io/ShtukaturkaSten/)
 
 [Svadba](https://annakarpushina.github.io/Svadba/)
 
