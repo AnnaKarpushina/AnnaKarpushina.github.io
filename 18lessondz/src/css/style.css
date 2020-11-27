@@ -1,0 +1,174 @@
+/* Шрифты для фоормы */
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+}
+
+/* Сама шапка формы*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	font-size: 24px;
+	background-color: #03a5da;
+	color: #fff;
+	border: 1px solid #03a5da;
+	margin-left: 20px;
+}
+
+/*Размер вашей чекбокса*/
+input[type=checkbox], input[type=radio] {
+	 width:10px;
+     height:10px;
+}
+
+form {
+	font-family: 'MyriadPro-Regular', sans-serif;
+	background-color: #000; /* черный цвет формы */
+	border: 10px solid #03a5da; /* голубой цвет рамки */
+	border-radius: 4px;
+	/* размер формы */
+	width: 420px;
+	height: 300px;
+	padding: 25px 20px; /* отступы в самой форме */
+}
+
+.form-input {
+	display: block;
+	font-size: 24px;
+	background-color: #1e1d1d; /* серый цвет ячеек */
+	border-radius: 3px;
+	border: none; /*без рамки*/
+	padding: 8px; 
+	width: 340px; /* длина ячеек */
+	margin-top: 18px; /* отступ сверху от ячеек */
+	margin-left: 5px; /* отступ слева от ячеек */
+	outline: none; /* без эффектов при нажатии */
+}
+
+.form-a {
+	display: block;
+	font-size: 15px;
+	color: #c51f03; /* цвет ссылки */
+	padding: 10px;
+	font-size: 11px; /*размер шрифта ссылки*/
+	margin-left: 10px; /*отступ слева*/
+}
+
+.form-btn{
+	display: inline-block;
+	background-color: #800501; /*бордовый цвет кнопки*/
+	color:#fff; /*белый шрифт надписи "Войти"*/
+	border: none; /*без рамки*/
+	padding: 4px 20px;
+	margin-left: 300px;
+}
+
+p {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+label {
+	margin-left: 20px;
+}
+
+/*Изменение цвета подсказывающего placeholder */
+/* Safari и Chrome */
+input[type="text"]::-webkit-input-placeholder {
+    color: #ccc;
+} 
+/*Firefox*/
+input[type="text"]::-moz-placeholder {
+    color: #ccc;
+}
+
+/* Safari и Chrome */
+input[type="password"]::-webkit-input-placeholder {
+    color: #ccc;
+} 
+/* Firefox */
+input[type="password"]::-moz-placeholder {
+    color: #ccc;
+}
+
+/*Изменение цвета написания input*/
+input[type="text"]{
+    color: #ccc;
+   } 
+
+input[type="password"]{
+    color: #ccc;
+   }
+
+/* Для ссылки "забыли пароль" */
+a:visited {
+    color: red; /* Цвет посещенных ссылок */
+}
+
+/* чтобы убрать линию и сделать относительно посередине */
+.container {
+	margin-top: 3%;
+	width: 350px; /*длина формы, чтобы сделать посередине, убрав линию*/
+}
+
+.container1 {
+	margin-top: 7%;
+	margin-left: 22%; /*отступ слева, чтобы было посередине*/
+	width: 850px; /*длина аккордиона*/
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700; /* жирный шрифт*/
+	color: #0bbaf0; /* голубой цвет */
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase; /*капс*/
+	line-height:0.5; /* межстрочный интервал */
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 400; /*обычный шрифт*/
+	color: #0bbaf0; /* голубой цвет */
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase; /*капс*/
+}
+
+/*Шапка аккордиона*/
+.panel-default>.panel-heading {
+	background-color: #0bbaf0;
+	color: #fff;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+/* шапка аккордиона */
+.panel-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 23.2px;
+}
+
+.panel-default {
+	border: 4px solid #dcdcdc; /* серая рамка у самого аккордиона */
+}
+
+/* Большой текст */
+.panel-body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	margin-left: 25px;
+} 
+
+
+
+
+
+
