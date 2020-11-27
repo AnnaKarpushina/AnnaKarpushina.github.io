@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Подключение шрифтов к сайту</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+      <div class="container">
+          <div class="text-box">
+            <input type="search" class="form-control" autofocus placeholder="Введите свою фразу">
+          </div> 
+
+          <div class="fonts">
+            <div class="Open-Sans">
+              <p class="resault">Начните писать фразу</p>
+              <small>Вот так выглядит шрифт <strong>Open Sans</strong></small>
+            </div>
+            <hr>
+
+            <div class="Lobster">  
+              <p class="resault">Начните писать фразу</p>
+              <small>Вот так выглядит шрифт <strong>Bebas</strong></small>
+            </div>
+            <hr>
+
+            <div class="Bebas-Neue">
+              <p class="resault">Начните писать фразу</p>
+              <small>Вот так выглядит шрифт <strong>Lato</strong></small>
+            </div>
+            <hr>
+            
+            <div class="Lato">
+              <p class="resault">Начните писать фразу</p>
+              <small>Вот так выглядит шрифт <strong>Lobster</strong></small>
+            </div>
+
+          </div>
+
+      </div>
+  </header>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 
+  <script>
+    $('input').keyup(function(){
+      $('p.resault').text($('input').val())
+    });
+  </script>
+
+</body>
+</html>
