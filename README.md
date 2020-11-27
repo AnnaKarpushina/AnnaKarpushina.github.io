@@ -10,6 +10,6 @@
 
 [Шрифты](https://annakarpushina.github.io/14lessondz/src/)
 
-[Форма](https://annakarpushina.github.io/18lessondz/src/)
+[Форма и список](https://annakarpushina.github.io/18lessondz/src/)
 
 [Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/)
