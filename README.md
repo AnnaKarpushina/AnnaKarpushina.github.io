@@ -1,6 +1,6 @@
 
 # AnnaKarpushina.github.io
-Мой первый опубликованный сайт)
+Мои первые опубликованные сайты)
 
 [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
