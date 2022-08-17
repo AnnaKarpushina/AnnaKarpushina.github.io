@@ -10,4 +10,4 @@
 
 [Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/)
 
-[Средства от потенции](https://annakarpushina.github.io/levelUp/src/)
+[Средства от потенции](https://annakarpushina.github.io/levelUp/)
