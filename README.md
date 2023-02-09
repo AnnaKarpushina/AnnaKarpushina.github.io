@@ -10,7 +10,5 @@
 
 [Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/)
 
-[Средства от потенции](https://annakarpushina.github.io/levelUp/)
-
-[Катерина Котлерова](https://annakarpushina.github.io/kotlzr/)
+[Катерина Котлерова](https://annakarpushina.github.io/kotlzr/index.html)
 
