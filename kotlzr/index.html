@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <!-- <script src="/js/script.js"></script> -->
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("hidden");
+      }
+    </script>
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <div class="hidden xl:flex justify-end">
+          <p class="uppercase text-slate-300 mr-1">en</p>
+          <p class="uppercase text-emerald-900">ru</p>
+        </div>
+  
+        <nav class="xl:flex justify-between items-center">
+          <div class="flex justify-between items-center mb-6 xl:mb-0">
+            <div>
+
+              <button onclick="myFunction()" class="cursor-grab xl:hidden space-y-1">
+                <span class="block w-5 h-1 bg-black"></span>
+                <span class="block w-6 h-1 bg-black"></span>
+                <span class="block w-8 h-1 bg-black"></span>
+              </button>
+
+              <div id="myDropdown" class="hidden xl:hidden absolute bg-white w-full left-1/2 -translate-x-1/2 z-10 mt-8 p-6 gap-8">
+                <div class="container">
+                  <a href="" class="block text-center mb-3">Обо мне</a>
+                  <a href="" class="block text-center mb-3">Портфолио</a>
+                  <a href="" class="block text-center mb-3">Услуги</a>
+                  <a href="" class="block text-center mb-3">Публикации</a>
+                  <a href="" class="block text-center mb-3">Отзывы</a>
+                  <a href="" class="block text-center mb-3">Новости</a>
+                  <a href="" class="block text-center mb-3">Контакты</a>
+
+                  <div class="text-center mt-8 xl:hidden">
+                    <p class="text-sm font-light mb-2">ekkot.arch@gmail.com</p>
+                    <p class="text-sm font-light mb-2">+7 (918) 555-86-10</p>
+                    <p class="text-sm font-light mb-2">+7 (863) 275-86-10</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div>
+              <img src="/img/logo.png" alt="Логотип" />
+            </div>
+            <div class="xl:hidden flex justify-end">
+              <p class="uppercase text-slate-300 mr-1">en</p>
+              <p class="uppercase text-emerald-900">ru</p>
+            </div>
+          </div>
+
+          <div class="hidden xl:flex gap-8">
+            <a href="" class="text-start inline">Обо мне</a>
+            <a href="" class="text-start inline">Портфолио</a>
+            <a href="" class="text-start inline">Услуги</a>
+            <a href="" class="text-start inline">Публикации</a>
+            <a href="" class="text-start inline">Отзывы</a>
+            <a href="" class="text-start inline">Новости</a>
+            <a href="" class="text-start inline">Контакты</a>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+
+    <div class="border-b-2 border-inherit-500 my-5"></div>
+
+    <main>
+
+      <div class="sm:flex justify-end items-end relative xl:min-h-[747px]">
+        <div class="container xl:flex">
+          <div class="flex justify-center xl:justify-start items-end">
+            <div class="lg:w-[90%] 2xl:w-full">
+              <img src="/img/logo-2.png" class="w-full" alt="Логотип" />
+              <div class="flex justify-center mt-9 mb-6 xl:mb-0">
+                <img src="/img/home-img 1.png" class="mr-3" alt="partner_1" />
+                <img src="/img/home-img 2.png" class="mr-3" alt="partner_2" />
+                <img src="/img/home-img 3.png" class="mr-3" alt="partner_3" />
+                <img src="/img/home-img 4.png" class="mr-3" alt="partner_4" />
+                <img src="/img/home-img 5.png" class="mr-3" alt="partner_5" />
+                <img src="/img/home-img 6.png" class="" alt="partner_6" />
+              </div>
+            </div>
+          </div>
+          
+          <div class="sm:px-0 xl:hidden flex flex-col xl:flex-row w-full xl:w-[55%] xl:max-h-[747px] gap-4">
+            <div class="flex xl:flex-col gap-4 flex-row">
+              <img src="/img/green_1 1.png" class="object-cover w-full xl:h-full h-[200px]" alt="interior_1" />
+              <img src="/img/green_1 2.png" class="object-cover w-full xl:h-full h-[200px]" alt="interior_2" />
+            </div>
+            <img src="/img/Rectangle 199.png" class="object-cover w-full" alt="big picture" />
+          </div>   
+        </div> 
+
+        <div class="hidden px-5 sm:px-0 xl:flex flex-col xl:flex-row xl:absolute w-full xl:w-[55%] xl:max-h-[747px] gap-4">
+          <div class="flex xl:flex-col xl:gap-4 flex-row">
+            <img src="/img/green_1 1.png" class="object-cover w-full h-full" alt="interior_1" />
+            <img src="/img/green_1 2.png" class="object-cover w-full h-full" alt="interior_2" />
+          </div>
+          <img src="/img/Rectangle 199.png" class="object-cover w-[60%]" alt="big picture" />
+        </div>   
+            
+      </div>
+
+    </main>
+
+    <div class="border-b-2 border-inherit-500 my-5"></div>
+
+    <footer class="mb-3">
+      <div class="container">
+        <div class="xl:flex justify-center xl:justify-between items-center">
+          <div class="flex justify-center xl:block">
+            <img src="/img/logo.png" class="mb-6" alt="Логотип" />
+          </div>
+    
+          <nav class="xl:flex justify-between items-center gap-8">
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Обо мне</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Портфолио</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Услуги</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Публикации</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Отзывы</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Новости</a>
+            <a href="" class="block text-center xl:text-start xl:inline mb-2 xl:mb-0">Контакты</a>
+            <a href="" class="flex justify-center xl:block mb-2 xl:mb-0">
+              <img src="/img/telega.svg" alt="Телеграм" />
+            </a>
+          </nav>
+    
+          <div class="text-center xl:text-right">
+            <p class="mb-2 xl:mb-0">ekkot.arch@gmail.com</p>
+            <p class="mb-2 xl:mb-0">+7 (918) 555-86-10</p>
+            <p class="mb-2 xl:mb-0">+7 (863) 275-86-10</p>
+          </div>
+        </div>
+
+        <div class="xl:flex justify-between">
+          <div class="flex justify-center xl:justify-start my-4 xl:my-0">
+            <p class="font-light text-sm mr-4">Разработано:</p>
+            <img src="/img/Vector.png" alt="company_logo" />
+          </div>
+          <p class="font-light text-sm text-center">Политика конфиденциальности</p>
+        </div> 
+        
+      </div>
+    </footer>
+  </body>
+</html>
