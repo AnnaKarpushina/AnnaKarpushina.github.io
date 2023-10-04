@@ -10,5 +10,3 @@
 
 [Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/)
 
-[Катерина Котлерова](https://annakarpushina.github.io/kotlzr/index.html)
-
