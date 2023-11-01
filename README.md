@@ -1,6 +1,5 @@
 
 # AnnaKarpushina.github.io
-Мои первые опубликованные сайты)
 
 [Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
 
