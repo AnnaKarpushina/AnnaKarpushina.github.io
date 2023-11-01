@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Страница кейса</title>
+</head>
+<body>
+  <main>
+    <section class="container">
+      <h1 class="page-cases">All Weddings</h1>
+      <div class="page-cases-bread-crumbs">
+        <a href="#">Главная</a> » <span>All Weddings</span>
+      </div>
+      <div class="page-cases-blocks-slider">
+        <div class="page-cases-slider">
+          <div class="splide splide_cases">
+            <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="bg-ground">
+                      <img src="assets/img/slider-cases.png" alt="кейс">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="bg-ground">
+                      <img src="assets/img/slider-cases.png" alt="кейс">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="bg-ground">
+                      <img src="assets/img/slider-cases.png" alt="кейс">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="bg-ground">
+                      <img src="assets/img/slider-cases.png" alt="кейс">
+                    </div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="pages-tegs">
+            <div class="page-teg">
+              <p>Креатианая концепция</p>
+            </div>
+            <div class="page-teg">
+              <p>UX/Ul</p>
+            </div>
+            <div class="page-teg">
+              <p>Аналитика</p>
+            </div>
+            <div class="page-teg">
+              <p>Веб-разработка</p>
+            </div>
+            <div class="page-teg">
+              <p>Поддержка</p>
+            </div>
+          </div>
+          <div class="splide splide_cases_tegs">
+            <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide page-teg">
+                    <p>Креатианая концепция</p>
+                  </li>
+                  <li class="splide__slide page-teg">
+                    <p>UX/Ul</p>
+                  </li>
+                  <li class="splide__slide page-teg">
+                    <p>Аналитика</p>
+                  </li>
+                  <li class="splide__slide page-teg">
+                    <p>Веб-разработка</p>
+                  </li>
+                  <li class="splide__slide page-teg">
+                    <p>Поддержка</p>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <p class="page-cases-opisanie-text">Создание корпоративного сайта для компании организующей торжественные мероприятия и свадьбы. 
+            Настройка системы приема и обработки заявок с сайта и социальных сетей в CRM и Telegram. Подключение и настройка аналитики. 
+            Настройка контекстной и таргетированной рекламы. Техподдержка.</p>
+          <div class="page-cases-buttons">
+            <button class="page-cases-buttons-1">Оставить заявку</button>
+            <button class="page-cases-buttons-2">Получить&nbsp;консультацию</button>
+          </div>
+          <div class="dannue">
+            <a class="dannue-phone" href="tel:+74951338714">+7 (495) 133-87-14</a>
+            <a class="dannue-mail" href="mail@get-progress.ru">mail@get-progress.ru</a>
+          </div>
+        </div>
+      </div>
+      <p class="page-cases-slider-p">Ещё кейсы</p>
+    </section>
+    <div class="splide splide_cases_very">
+      <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <a href="#">
+                <img src="assets/img/case-9.png" alt="кейс">
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#">
+                <img src="assets/img/case-9.png" alt="кейс">
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#">
+                <img src="assets/img/case-9.png" alt="кейс">
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="#">
+                <img src="assets/img/case-9.png" alt="кейс">
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </main>
+
+  <script>
+ 
+   document.addEventListener('DOMContentLoaded', function () {
+     let splide = new Splide('.splide_cases', {
+           type: 'loop',
+           arrows: true,
+           pagination: true,
+           rewind: true,
+           perPage: 1,
+           autoplay: true, // Включение автопрокрутки
+           interval: 3000, // Интервал между слайдами (в миллисекундах)
+           classes: {
+             arrows: 'splide__arrows splide_cases-arrows',
+             arrow : 'splide__arrow splide_cases-arrow',
+             prev  : 'splide__arrow--prev splide_cases-prev',
+             next  : 'splide__arrow--next splide_cases-next',
+             pagination: 'splide__pagination splide_cases-pagination',
+             page: 'splide__pagination__page splide_cases-page',
+           },
+           breakpoints: {
+            1024: {
+              arrows: false,
+            }
+           }
+       });
+       splide.mount();
+   });    
+
+   document.addEventListener('DOMContentLoaded', function () {
+     let splide = new Splide('.splide_cases_very', {
+        type: 'loop',
+        arrows: false,
+        pagination: true,
+        rewind: true,
+        fixedWidth: '654px',
+        gap: '1.319vw',
+        padding: '6%',
+        autoplay: true, // Включение автопрокрутки
+        interval: 3000, // Интервал между слайдами (в миллисекундах)
+        classes: {
+          pagination: 'splide__pagination splide_cases_very-pagination',
+          page: 'splide__pagination__page splide_cases_very-page',
+        },
+        breakpoints: {
+          1024: {
+            perPage: 1,
+            padding: '0%',
+            fixedWidth: 'auto',
+            width: '100%',
+          }
+        }
+       });
+       splide.mount();
+   });    
+ 
+  document.addEventListener('DOMContentLoaded', function () {
+   let sliders = document.querySelectorAll('.splide_cases_tegs');
+ 
+     function initSplide(selector) {
+       let splide = new Splide(selector, {
+         arrows: false,
+         pagination: false,
+         rewind: true,
+         gap: '1.026vw',
+         fixedWidth: true
+       });
+       splide.mount();
+     }
+ 
+     sliders.forEach(function (slider) {
+       initSplide(slider);
+     });
+   });
+ 
+ </script>
+</body>
+</html>
