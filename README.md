@@ -14,12 +14,17 @@
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 
+Верстка с использование scss: 
 
 [Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
 
+[Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
+
+
+
 [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
-[Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
+Эксперименты:
 
 [Шрифты](https://annakarpushina.github.io/14lessondz/src/)
 
