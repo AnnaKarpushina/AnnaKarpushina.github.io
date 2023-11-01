@@ -1,14 +1,10 @@
 
 # AnnaKarpushina.github.io
-
+[Несколько страниц для сайта Getprogress:]
 [Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 
-
 [Внутрянка кейса](https://annakarpushina.github.io/Getprogress%20с%20vw/all-weddings.html) 
-
 [Общая страница статей](https://annakarpushina.github.io/Getprogress%20с%20vw/blogs.html) 
-
 [Статья из блога](https://annakarpushina.github.io/Getprogress%20с%20vw/blog.html) 
-
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 [Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
