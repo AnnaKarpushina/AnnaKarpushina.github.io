@@ -3,7 +3,7 @@
 
 
 
-(https://annakarpushina.github.io/Getprogress%20с%20vw/) 
+(https://annakarpushina.github.io/Getprogress%20с%20vw/blog.html) 
 
 [Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
 
