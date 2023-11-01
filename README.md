@@ -1,7 +1,7 @@
 
 # AnnaKarpushina.github.io
 
-Несколько страниц для сайта Getprogress:
+Несколько страниц для сайта Getprogress с использование vw:
 
 [Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 
 
@@ -14,13 +14,14 @@
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 
-Верстка с использование scss: 
+Лендинги с использование scss: 
 
 [Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
 
 [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
 
+Мой первый сайт на css:
 
 [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
