@@ -2,6 +2,8 @@
 # AnnaKarpushina.github.io
 Мои первые опубликованные сайты)
 
+[Дизайн_конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
+
 [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
 [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
