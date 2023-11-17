@@ -1,7 +1,7 @@
 
 # AnnaKarpushina.github.io
 
-Сайты на vue.js:
+Сайт на vue.js 3:
 
 [Конструктор тортов](https://annakarpushina.github.io/Constructor_cakes/cakes.html) 
 
