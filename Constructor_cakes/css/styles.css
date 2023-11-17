@@ -1,0 +1,39 @@
+body{
+
+}
+
+.wrapper{
+	padding: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.layer{
+	transition: height 0.5s;
+}
+
+.layer-biscuit{
+	background: url(../img/biscuit.jpg);
+}
+
+.layer-beze{
+	background: url(../img/beze.jpg);
+}
+
+.layer-curd{
+	background: url(../img/curd.jpg);
+}
+
+.price{
+	font-size: 26px;
+	margin-right: 40px;
+}
+
+.layer-enter-active{
+	animation: layerIn 0.5s;
+}
+
+@keyframes layerIn{
+	from{transform: translateY(50px);}
+	to{transform: translateY(0);}
+}
