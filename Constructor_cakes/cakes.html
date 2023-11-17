@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Конструктор тортов</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="js/vue.js"></script>
+</head>
+<body>
+	<div class="container mt-3">
+		<div class="sample">
+			<h2>Конструктор тортов</h2>
+			<hr>
+			<button type="button" class="btn btn-primary" @click="addLayer">Добавить слой</button>
+			<hr>
+			<div class="row">
+				<div class="col col-sm-6">
+					<div class="cake" v-for="layer,i in layers">
+						<div class="layer"
+							:class="'layer-' + layer.type"
+							:style="{ height: layer.height * 10 + 'px' }"
+							@click="layer.height++"
+							@contextmenu.prevent="layer.height = layer.height > 1 ? layer.height - 1 : layer.height"
+						></div>
+					</div>
+				</div>
+				<div class="col col-sm-6">
+					<table class="table table-bordered" v-show="hasLayers">
+						<tr>
+							<th>Тип</th>
+							<th>Высота</th>
+							<th>Удалить</th>
+						</tr>
+						<tr v-for="(layer, i) in layers">
+							<td>
+								<select v-model="layer.type">
+									<option v-for="info,type in layersTypes" :value="type">
+										{{ info.label }}
+									</option>
+								</select>
+							</td>
+							<td>
+								<input type="text" class="form-control" v-model.number="layer.height">
+							</td>
+							<td>
+								<button type="button" class="btn btn-danger" @click="removeLayer(i)">X</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<hr>
+			<div class="alert alert-success price" v-show="hasLayers">
+				<span class="price">{{ price }} ₽</span>
+				<button type="button" class="btn btn-warning">Заказать!</button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		
+		let app = Vue.createApp({
+			data(){
+				return {
+					layers: [], //слои
+					layersTypes: {
+						biscuit: {
+							price1sm: 50, //цена
+							label: 'Бисквит'
+						},
+						beze: {
+							price1sm: 100,
+							label: 'Безе'
+						},
+						curd: {
+							price1sm: 60,
+							label: 'Творожный'
+						}
+					},
+					//начальные значения
+					defaultLayer: 'biscuit',
+					defaultHeight: 5
+				}
+			},
+			computed: {
+				hasLayers(){
+					return this.layers.length > 0;
+				},
+				price(){
+					let sum = 0;
+
+					for(let i = 0; i < this.layers.length; i++){
+						let layer = this.layers[i];
+						let ltype = this.layersTypes[layer.type];
+						
+						sum += layer.height * ltype.price1sm;
+					}
+
+					return sum;
+				}
+			},
+			methods: {
+				//добавляем слой
+				addLayer(){
+					this.layers.push({ 
+						type: this.defaultLayer, 
+						height: this.defaultHeight 
+					});
+				},
+				//удаляем слой
+				removeLayer(i){
+					this.layers.splice(i, 1);
+				}
+			}
+		});
+		
+		let root = app.mount('.sample');
+		console.log(root)
+	</script>
+</body>
+</html>
