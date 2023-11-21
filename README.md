@@ -5,7 +5,7 @@
 
 [Конструктор тортов](https://annakarpushina.github.io/Constructor_cakes/cakes.html) 
 
-[Форма с пользовательским соглашением](https://annakarpushina.github.io/User_agreement_form/forma.html) 
+[Форма с пользовательским соглашением](https://annakarpushina.github.io/User_agreement_forms/forma.html) 
 
 Несколько страниц для сайта Getprogress с использование vw:
 
