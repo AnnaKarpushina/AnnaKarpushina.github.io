@@ -1,10 +1,6 @@
 
 # AnnaKarpushina.github.io
 
-Несколько проектов на Vue.js 3:
-
-[Конструктор тортов](https://annakarpushina.github.io/constructor_cakes/cakes.html) 
-
 Несколько страниц для сайта Getprogress с использование vw:
 
 [Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 
