@@ -94,7 +94,7 @@
             <div class="progress">
                 <div class="progress-bar" :style="progressInputStyles"></div>
             </div>
-            <br>
+            <p class="mt-2 mb-5">Вы заполнили: {{ progressInputStyles.width }}</p>
             <div class="form-group" v-for="(person, i) in persons" :key="i">
                 <label class="mb-2">
                     {{ person.label }}
