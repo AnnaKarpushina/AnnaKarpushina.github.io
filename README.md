@@ -6,6 +6,11 @@
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
 
+Проект на Vue.js 3 и Vuex:
+
+[Интернет_магазин](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex)
+
+
 Несколько страниц для сайта Getprogress с использование vw:
 
 [Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 
