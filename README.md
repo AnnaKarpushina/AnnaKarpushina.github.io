@@ -8,7 +8,7 @@
 
 Проект на Vue.js 3 и Vuex:
 
-[Интернет магазин телефонов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex)
+[Интернет магазин телефонов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex) 
 
 
 Несколько страниц для сайта Getprogress с использование vw:
