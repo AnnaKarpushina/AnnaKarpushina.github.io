@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row align-items-center mt-4 mt-md-5">
 					<div class="col-12 col-md-9">
-						<h1>Интернет-магазин</h1>
+						<h1>Интернет-магазин телефонов</h1>
 					</div>
 					<div class="col-12 col-md-3">
 						<div class="alert alert-default alert-secondary px-0 mb-0 py-1 py-md-3">
