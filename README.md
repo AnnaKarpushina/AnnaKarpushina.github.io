@@ -28,9 +28,9 @@
 
 Лендинги с использованием CSS/SCSS: 
 
-[Фабрика скинали (CSS)](https://annakarpushina.github.io/landing%20Page/) 
+CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
-[Штукатурка стен (SCSS)](https://annakarpushina.github.io/ShtukaturkaSten/src/)
+SCSS: [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
 Эксперименты:
 
