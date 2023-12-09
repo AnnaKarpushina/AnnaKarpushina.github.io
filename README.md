@@ -3,7 +3,7 @@
 
 Проект на Vue.js 3:
 
-[Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) 
+SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) 
 
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
@@ -26,7 +26,7 @@
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 
-Лендинги с использованием CSS/SCSS: 
+Лендинги: 
 
 CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
 
