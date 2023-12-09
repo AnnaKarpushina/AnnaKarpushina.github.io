@@ -28,8 +28,6 @@
 
 Лендинги с использование scss: 
 
-[Дизайн конференция](https://annakarpushina.github.io/Oggetto%20(scss)/) 
-
 [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
 
