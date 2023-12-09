@@ -3,6 +3,8 @@
 
 Проект на Vue.js 3:
 
+[Дизайн конференция](https://annakarpushina.github.io/Design%20conference_scss_vue) 
+
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
 
