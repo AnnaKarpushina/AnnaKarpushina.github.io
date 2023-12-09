@@ -1,0 +1,106 @@
+.section-speakers {
+	padding: 0 0 163px 168px;
+	&__title {
+		font-size: 48px;
+		line-height: 72px;
+		text-transform: uppercase;
+		position: relative;
+		margin: 0 0 52px 0;
+        font-family: "Helvetica-Black", sans-serif;
+	}
+}
+
+@media (max-width: 1024px) {
+    .section-speakers {
+      padding: 0 0 163px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-speakers {
+        padding: 0 0 40px 13px;
+        top: -30px;
+        &__title {
+            font-size: 44px;
+            line-height: 66px;
+            margin: 0 0 10px 0;
+        }
+    }
+}
+  
+@media (min-width: 769px) {
+    .section-speakers__title::after {
+      content: '';
+      position: absolute;
+      top: -125px;
+      left: -79px;
+      width: 220px;
+      height: 220px;
+      background: transparent;
+      border: 6px solid #DA353B;
+    }
+}
+
+
+.slider-speakers {
+	position: relative;
+	&__name {
+		font-size: 24px;
+		line-height: 33.6px;
+		margin: 34px 0 8px 0;
+		text-transform: uppercase;
+        font-family: "Helvetica-Medium", sans-serif;
+        span {
+            color: #DA353B;
+        }
+	}
+}
+
+@media (max-width: 768px) {
+    .slider-speakers {
+        &__name {
+            margin: 24px 0 5px 0;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+}
+
+.carousel {
+    &__prev, &__next {
+        height: 43px !important;
+        width: 43px !important;
+        border: 2px solid #DA353B !important;
+        transition: all ease 0.3s;
+        &:hover {
+            transition: all ease 0.3s;
+            background: #DA353B;
+            color: #ffffff;
+            svg path {
+                stroke: #ffffff;
+            }
+        }
+    }
+    &__prev {
+        left: auto !important;
+        right: 155px;
+        top: 110% !important;
+    }
+    &__next {
+        right: 87px !important;
+        top: 110% !important;
+    }
+    &__slide {
+        display: block !important;
+        padding: 0 10px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        &__prev, &__next {
+            display: none !important;
+        }
+    }
+}

@@ -1,0 +1,157 @@
+.section-speakers {
+  padding: 0 0 163px 168px;
+}
+.section-speakers__title {
+  font-size: 48px;
+  line-height: 72px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 0 52px 0;
+  font-family: "Helvetica-Black", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .section-speakers {
+    padding: 0 0 163px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .section-speakers {
+    padding: 0 0 40px 13px;
+    top: -30px;
+  }
+  .section-speakers__title {
+    font-size: 44px;
+    line-height: 66px;
+    margin: 0 0 10px 0;
+  }
+}
+@media (min-width: 769px) {
+  .section-speakers__title::after {
+    content: "";
+    position: absolute;
+    top: -125px;
+    left: -79px;
+    width: 220px;
+    height: 220px;
+    background: transparent;
+    border: 6px solid #DA353B;
+  }
+}
+.slider-speakers {
+  position: relative;
+}
+.slider-speakers__name {
+  font-size: 24px;
+  line-height: 33.6px;
+  margin: 34px 0 8px 0;
+  text-transform: uppercase;
+  font-family: "Helvetica-Medium", sans-serif;
+}
+.slider-speakers__name span {
+  color: #DA353B;
+}
+.slider-speakers__item {
+  width: 380px;
+  margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .slider-speakers__name {
+    margin: 24px 0 5px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .slider-speakers__item {
+    width: 245px;
+    margin: 0 7px;
+  }
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-slide {
+  float: left;
+}
+
+.prev {
+  left: auto !important;
+  right: 155px !important;
+  -webkit-transform: rotate(180deg) !important;
+          transform: rotate(180deg) !important;
+}
+
+.carousel__prev {
+  left: auto !important;
+  right: 155px !important;
+  -webkit-transform: rotate(360deg) !important;
+          transform: rotate(360deg) !important;
+}
+
+.next,
+.carousel__next {
+  right: 87px !important;
+}
+
+.carousel__prev {
+  top: 106% !important;
+}
+
+.carousel__next {
+  top: 110% !important;
+}
+
+.carousel__track {
+  padding-left: 20px;
+}
+
+.carousel__prev, .carousel__next {
+  height: 43px !important;
+  width: 43px !important;
+}
+
+.carousel__icon {
+  height: 12px !important;
+}
+
+.prev, .next,
+.carousel__prev,
+.carousel__next {
+  position: absolute !important;
+  bottom: -79px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  padding: 13px 13px !important;
+  border: 2px solid #DA353B !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  -webkit-transition: all ease 0.3s !important;
+  transition: all ease 0.3s !important;
+}
+.prev svg path, .next svg path,
+.carousel__prev svg path,
+.carousel__next svg path {
+  stroke: #DA353B !important;
+}
+.prev:hover, .next:hover,
+.carousel__prev:hover,
+.carousel__next:hover {
+  -webkit-transition: all ease 0.3s !important;
+  transition: all ease 0.3s !important;
+  background: #DA353B !important;
+}
+.prev:hover svg path, .next:hover svg path,
+.carousel__prev:hover svg path,
+.carousel__next:hover svg path {
+  stroke: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  button .carousel__prev, button .carousel__next {
+    display: none !important;
+  }
+}
