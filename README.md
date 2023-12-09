@@ -26,15 +26,11 @@
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 
-Лендинги с использование SCSS: 
+Лендинги с использованием CSS/SCSS: 
 
-[Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
+[Фабрика скинали (CSS)](https://annakarpushina.github.io/landing%20Page/) 
 
-
-Мой первый сайт на CSS:
-
-[Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
-
+[Штукатурка стен (SCSS)](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
 Эксперименты:
 
