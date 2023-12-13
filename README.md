@@ -7,6 +7,8 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
+[Клон Youtube](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Clone_%D1%83outube)
+
 [Посты на Options API/Composition API/Vuex](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/A_lot_of_posts) 
 
 
