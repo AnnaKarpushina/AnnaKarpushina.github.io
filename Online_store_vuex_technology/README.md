@@ -1,4 +1,4 @@
-# vue-online-store
+# Online store vuex technology
 
 ## Project setup
 ```
