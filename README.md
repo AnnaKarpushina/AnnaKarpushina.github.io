@@ -7,10 +7,14 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
+[Посты на Options API/Composition API/Vuex](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/A_lot_of_posts) 
+
 
 Проект на Vue.js 3 и Vuex:
 
 [Интернет магазин телефонов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex) 
+
+[Интернет магазин техники](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex_technology) 
 
 
 Несколько страниц для сайта Getprogress с использование vw:
