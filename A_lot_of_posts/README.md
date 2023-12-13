@@ -1,4 +1,4 @@
-# myproject
+# A lot of posts
 
 ## Project setup
 ```
