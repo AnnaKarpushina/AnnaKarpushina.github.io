@@ -11,6 +11,7 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 [Посты на Options API/Composition API/Vuex](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/A_lot_of_posts) 
 
+[Трекер задач на Composition API](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/OnTrack-composition) 
 
 Проект на Vue.js 3 и Vuex:
 
