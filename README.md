@@ -33,6 +33,13 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
 
 
+Несколько страниц для сайта z51:
+
+[Страница оформления заказа](https://annakarpushina.github.io/z51/index.html)
+
+[Письмо с заказом на почту](https://annakarpushina.github.io/z51/letter.html)
+
+
 Лендинги: 
 
 CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
