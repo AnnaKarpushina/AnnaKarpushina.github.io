@@ -46,6 +46,8 @@ CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20
 
 SCSS: [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
+Tailwind: [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html)
+
 Эксперименты:
 
 [Шрифты](https://annakarpushina.github.io/14lessondz/src/)
