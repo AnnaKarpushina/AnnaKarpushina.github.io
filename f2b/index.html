@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f2b</title>
+    <link href="./css/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+</head>
+<body>
+    <header class="fixed w-full z-30">
+        <div class="wrapper mx-auto pt-[12px] sm:pt-[23px] lg:pt-[32px] flex justify-between items-center px-[15px] sm:px-[20px] lg:px-0">
+            <div class="hidden lg:flex">
+                <div class="flex items-center gap-[10px]">
+                    <a href="tel:+74957875900" class="menu-blur gradient-background py-[9px] sm:py-[8px] px-[11px] sm:px-[15px] rounded-[16px] 
+                    justify-center bg-[#CCA4FB] bg-opacity-20 uppercase h-[33px] flex items-center cursor-pointer">
+                        <p class="text-[14px] leading-[16.7px]">+7 (495) 787 59 00</p>
+                    </a>
+                    <a href="mailto:opt@-2-b.ru" class="menu-blur gradient-background py-[11px] sm:py-[8px] px-[11px] sm:px-[15px] rounded-[16px] 
+                    justify-center bg-[#CCA4FB] bg-opacity-20 uppercase h-[33px] flex items-center cursor-pointer">
+                        <p class="text-[14px] leading-[16.7px]">opt@-2-b.ru</p>
+                    </a>
+                </div>
+            </div>
+            <div class="flex lg:ml-[-165px] xl:ml-[-170px] 2xl:ml-[-230px]">
+                <img src="./img/logo-small.svg" alt="лого" class="h-[35.5px] sm:h-[50px]">
+            </div>
+            <div class="flex items-center gap-[9px] sm:gap-[10px]">
+                <a href="tel:+74957875900" class="menu-blur gradient-background py-[9px] sm:py-[8px] px-[11px] sm:px-[15px] rounded-[16px] 
+                bg-[#CCA4FB] bg-opacity-20 uppercase h-[33px] flex items-center cursor-pointer lg:hidden">
+                    <p class="text-[14px] leading-[16.7px] hidden sm:block">+7 (495) 787 59 00</p>
+                    <svg class="sm:hidden w-[12px] h-[15px]" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.96646 2C4.13793 2 4.31893 2.02 4.49993 2.07C4.84287 2.17 5.50017 2.28 5.73833 2.52L5.71928 5.86C5.51923 5.91 5.12865 5.96 4.81429 5.96C4.6714 5.96 4.53803 5.96 4.44277 5.93C4.69045 6.67 6.30037 9.59 6.78621 10.18C6.88147 9.86 7.29109 9.15 7.49114 8.92L10.0727 10.25C10.1489 10.59 9.90127 11.38 9.806 11.74C9.67264 12.27 9.35827 12.7 8.94865 12.98C8.61523 13.21 8.22466 13.34 7.81503 13.34C7.64356 13.34 7.46257 13.32 7.28157 13.27C7.18631 13.24 7.10057 13.21 7.01484 13.17C6.77668 13.06 6.55758 12.91 6.37658 12.73C5.3287 11.91 4.29988 10.67 3.45205 9.15C2.61374 7.62 2.10886 6.06 1.95644 4.7C1.88975 4.44 1.88023 4.17 1.90881 3.9C1.91833 3.8 1.93739 3.7 1.95644 3.61C2.11838 2.99 2.51848 2.5 3.0329 2.24C3.31868 2.09 3.63304 2.01 3.95693 2.01M3.96646 0C3.35678 0 2.74711 0.15 2.19459 0.44C1.18482 0.97 0.43225 1.94 0.136939 3.08C0.0893079 3.26 0.0607294 3.44 0.0321508 3.64C-0.0250062 4.11 -0.00595386 4.58 0.0893079 5.04C0.298884 6.7 0.889506 8.46 1.81355 10.13C2.73758 11.81 3.89025 13.23 5.15723 14.24C5.49065 14.56 5.86217 14.81 6.28132 14.99C6.46232 15.07 6.63379 15.13 6.79573 15.18C7.12915 15.27 7.47209 15.32 7.82456 15.32C8.60571 15.32 9.35827 15.08 10.0156 14.63C10.8253 14.07 11.4064 13.22 11.6541 12.24L11.7017 12.07C11.9303 11.25 12.1018 10.51 11.9303 9.77C11.797 9.19 11.4255 8.7 10.911 8.44L8.32945 7.11C8.06271 6.97 7.77693 6.91 7.49114 6.91C7.43399 6.91 7.38636 6.91 7.3292 6.91C7.5102 6.6 7.61498 6.24 7.62451 5.86L7.64356 2.52C7.64356 1.97 7.43399 1.44 7.04341 1.06C6.48137 0.5 5.7288 0.32 5.17628 0.18C5.1096 0.16 5.04292 0.15 4.99529 0.13C4.66187 0.05 4.31893 0 3.96646 0Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="mailto:opt@-2-b.ru" class="menu-blur gradient-background py-[11px] sm:py-[8px] px-[11px] sm:px-[15px] justify-center 
+                rounded-[16px] bg-[#CCA4FB] bg-opacity-20 uppercase h-[33px] flex items-center cursor-pointer lg:hidden">
+                    <p class="text-[14px] leading-[16.7px] hidden sm:block">opt@-2-b.ru</p>
+                    <svg class="sm:hidden w-[12px] h-[12px]" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1994 1H3.80059C2.25387 1 1 2.25387 1 3.80059V10.1994C1 11.7461 2.25387 13 3.80059 13H10.1994C11.7461 13 13 11.7461 13 10.1994V3.80059C13 2.25387 11.7461 1 10.1994 1Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                        <path d="M12.3707 2.89648L8.74592 6.5213C7.70013 7.56709 6.01623 7.56709 4.97044 6.5213L1.48743 3.04715" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <div class="language-block menu-blur relative py-[8px] px-[15px] rounded-b-[16px] rounded-t-[16px] justify-center 
+                bg-[#CCA4FB] bg-opacity-20 uppercase grid grid-cols-[1fr_8px] cursor-pointer gap-[10px] 
+                items-center w-[66px] gradient-background-language" onclick="toggleLanguageBlock()">
+                    <p class="language-choice-py text-[14px] leading-[16.7px]">py</p>
+                    <svg class="w-[8px] h-[8px] text-white" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 1.5L5 5.5L1 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div class="group language-choice hidden absolute bottom-[-32px] gradient-background-language-en
+                    rounded-b-[16px] py-[8px] px-[15px] w-full" onclick="changeLanguage(event)">
+                        <p class="language-choice-en text-[14px] leading-[16.7px] cursor-pointer group-hover:text-[#1F1A2E]">en</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="pt-[84px] sm:pt-[122px] lg:pt-[153px] 2xl:pt-[168px] pb-[36px] sm:pb-[44px] lg:pb-[84px] 2xl:pb-[94px]">
+        <div class="wrapper mx-auto">
+            <div class="px-[35px] sm:px-[76px] lg:px-[77px] 2xl:px-0 mb-[37px] sm:mb-[57.6px] lg:mb-[79.6px] 2xl:mb-[91px] relative">
+                <svg class="mb-[17.6px] sm:mb-[23px] lg:mb-0 2xl:pl-[91px] h-[89px] sm:h-[159px] lg:h-[220px] 2xl:h-[309px]" 
+                    viewBox="0 0 905 309" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.4 25V2.99999H94V25H8.4ZM70.2 60.8C74.8667 60.8 79.2667 61.3333 83.4 62.4C87.5333 63.4667 91.2 65.2 94.4 67.6C97.7333 69.8667 100.333 72.8667 102.2 76.6C104.067 80.3333 105 84.8667 105 90.2V111.8C105 118.6 103.733 124.2 101.2 128.6C98.6667 133 95.1333 136.4 90.6 138.8C86.0667 141.2 80.6 142.867 74.2 143.8C67.9333 144.733 60.9333 145.2 53.2 145.2C49.8667 145.2 46.2 145.133 42.2 145C38.2 144.867 34.2 144.667 30.2 144.4C26.2 144.133 22.5333 143.867 19.2 143.6C16 143.467 13.4 143.333 11.4 143.2C9.4 143.067 8.4 143 8.4 143V2.99999H30.8V60.8H70.2ZM82.6 108.2V94C82.6 91.8667 82.2667 90.0667 81.6 88.6C80.9333 87.1333 80 86 78.8 85.2C77.6 84.2667 76.1333 83.6667 74.4 83.4C72.6667 83 70.8 82.8 68.8 82.8H30.8V124C30.6667 124 31.2 124.067 32.4 124.2C33.7333 124.2 35.4 124.267 37.4 124.4C39.4 124.4 41.5333 124.467 43.8 124.6C46.0667 124.6 48.1333 124.667 50 124.8C52 124.8 53.5333 124.8 54.6 124.8C61 124.8 66.0667 124.4 69.8 123.6C73.5333 122.8 76.3333 121.667 78.2 120.2C80.0667 118.733 81.2667 117 81.8 115C82.3333 113 82.6 110.733 82.6 108.2ZM118.942 2.99999H141.342V106.2L220.142 2.99999H242.342V143H220.142V41.2L141.342 143H118.942V2.99999ZM275.577 60.6H298.177C304.177 60.6 309.377 59.8 313.777 58.2C318.31 56.4667 321.843 54 324.377 50.8C326.91 47.6 328.177 43.8 328.177 39.4C328.177 36.4667 327.577 33.9333 326.377 31.8C325.31 29.5333 323.577 27.6667 321.177 26.2C318.91 24.7333 316.11 23.6667 312.777 23C309.443 22.2 305.51 21.8 300.977 21.8C298.043 21.8 294.977 21.9333 291.777 22.2C288.71 22.4667 285.643 22.9333 282.577 23.6C279.643 24.1333 276.977 24.8 274.577 25.6L266.977 8C270.977 6.39999 274.977 5.06666 278.977 3.99999C282.977 2.93333 286.977 2.2 290.977 1.79999C294.977 1.26666 298.977 0.999992 302.977 0.999992C312.843 0.999992 321.377 2.39999 328.577 5.2C335.777 7.86666 341.31 11.8667 345.177 17.2C349.177 22.5333 351.177 29.0667 351.177 36.8C351.177 41.0667 350.443 45.0667 348.977 48.8C347.643 52.5333 345.643 55.8 342.977 58.6C340.31 61.4 336.843 63.7333 332.577 65.6C340.043 68.5333 346.177 73 350.977 79C355.777 84.8667 358.177 92.2 358.177 101C358.177 106.6 357.043 112.067 354.777 117.4C352.643 122.733 349.11 127.467 344.177 131.6C339.243 135.733 332.643 139.067 324.377 141.6C316.243 144.133 306.177 145.4 294.177 145.4C289.243 145.4 284.377 145.067 279.577 144.4C274.777 143.733 270.443 143 266.577 142.2C262.71 141.267 259.643 140.467 257.377 139.8C255.11 139.133 253.977 138.8 253.977 138.8L259.177 118.8C259.177 118.8 260.377 119.067 262.777 119.6C265.177 120.133 268.31 120.8 272.177 121.6C276.177 122.267 280.443 122.933 284.977 123.6C289.643 124.133 294.243 124.4 298.777 124.4C306.777 124.4 313.443 123.467 318.777 121.6C324.11 119.733 328.11 117.133 330.777 113.8C333.443 110.333 334.777 106.467 334.777 102.2C334.777 99.1333 334.11 96.3333 332.777 93.8C331.577 91.2667 329.777 89.1333 327.377 87.4C325.11 85.5333 322.31 84.1333 318.977 83.2C315.643 82.1333 311.843 81.6 307.577 81.6H283.977L275.577 60.6ZM457.258 60.2V2.99999H479.458V143H457.258V81.2H394.658V143H372.458V2.99999H394.658V60.2H457.258ZM496.486 143V2.99999H580.086V25H518.486V60.2H558.486L552.086 81.2H518.486V122.8H579.886V143H496.486ZM672.505 26.2C669.305 25.1333 665.371 24.3333 660.705 23.8C656.038 23.1333 651.771 22.8 647.905 22.8C641.505 22.8 635.971 23.3333 631.305 24.4C626.638 25.3333 623.038 27.2 620.505 30C618.105 32.6667 616.905 36.6 616.905 41.8V102.8C616.905 108.267 618.038 112.467 620.305 115.4C622.705 118.2 626.038 120.133 630.305 121.2C634.571 122.267 639.705 122.8 645.705 122.8C650.771 122.8 655.838 122.4 660.905 121.6C665.971 120.8 670.371 119.933 674.105 119C677.838 118.067 680.105 117.533 680.905 117.4L684.905 138.4C677.705 140.533 670.705 142.2 663.905 143.4C657.105 144.733 650.505 145.4 644.105 145.4C633.438 145.4 624.371 144 616.905 141.2C609.571 138.267 603.971 133.933 600.105 128.2C596.371 122.333 594.505 115.067 594.505 106.4V39.8C594.505 30.6 596.571 23.1333 600.705 17.4C604.838 11.5333 610.505 7.26666 617.705 4.59999C625.038 1.93333 633.438 0.599998 642.905 0.599998C648.905 0.599998 654.905 1.2 660.905 2.4C666.905 3.46666 672.905 5.19999 678.905 7.59999L672.505 26.2Z" 
+                    fill="url(#gradientTitle_1)"/>
+                    <path d="M44.6 177.6C42.4667 178.267 40.1333 179.267 37.6 180.6C35.2 181.8 33.1333 183.8 31.4 186.6C29.8 189.267 29 193.2 29 198.4V260.2C29 263.8 29.5333 267.267 30.6 270.6C31.6667 273.8 33.6667 276.4 36.6 278.4C39.6667 280.4 43.9333 281.4 49.4 281.4H61.2V191.4C61.2 188.6 61.6667 185.4 62.6 181.8C63.5333 178.2 65.2 174.733 67.6 171.4C70.1333 167.933 73.6667 165.133 78.2 163C82.7333 160.733 88.6 159.6 95.8 159.6C105.133 159.6 113 161.333 119.4 164.8C125.8 168.133 130.6 172.933 133.8 179.2C137 185.333 138.6 192.467 138.6 200.6V256.6C138.6 265.267 137.133 272.867 134.2 279.4C131.4 285.8 126.733 290.733 120.2 294.2C113.667 297.667 104.8 299.4 93.6 299.4H83.2V309L61.2 306.4V299.4H52.2C43 299.4 35.4 298.333 29.4 296.2C23.5333 293.933 18.9333 290.867 15.6 287C12.4 283 10.1333 278.4 8.8 273.2C7.46667 268 6.8 262.467 6.8 256.6V198.4C6.8 188.4 9.26667 180.267 14.2 174C19.1333 167.6 26.4667 163.133 36.2 160.6L44.6 177.6ZM95.6 281.4C101.333 281.4 105.667 280.4 108.6 278.4C111.667 276.267 113.733 273.6 114.8 270.4C116 267.067 116.6 263.667 116.6 260.2V207.2C116.6 202.133 116 197.6 114.8 193.6C113.733 189.6 111.733 186.467 108.8 184.2C106 181.933 101.933 180.8 96.6 180.8C93.5333 180.8 91 181.467 89 182.8C87 184 85.5333 185.667 84.6 187.8C83.6667 189.933 83.2 192.267 83.2 194.8V281.4H95.6ZM273.527 302H247.727L235.927 265.2H186.127L174.527 302H149.527L195.927 162H226.927L273.527 302ZM193.727 241.8H228.327L211.127 187.6L193.727 241.8ZM286.916 184V162H372.516V184H286.916ZM348.716 219.8C353.382 219.8 357.782 220.333 361.916 221.4C366.049 222.467 369.716 224.2 372.916 226.6C376.249 228.867 378.849 231.867 380.716 235.6C382.582 239.333 383.516 243.867 383.516 249.2V270.8C383.516 277.6 382.249 283.2 379.716 287.6C377.182 292 373.649 295.4 369.116 297.8C364.582 300.2 359.116 301.867 352.716 302.8C346.449 303.733 339.449 304.2 331.716 304.2C328.382 304.2 324.716 304.133 320.716 304C316.716 303.867 312.716 303.667 308.716 303.4C304.716 303.133 301.049 302.867 297.716 302.6C294.516 302.467 291.916 302.333 289.916 302.2C287.916 302.067 286.916 302 286.916 302V162H309.316V219.8H348.716ZM361.116 267.2V253C361.116 250.867 360.782 249.067 360.116 247.6C359.449 246.133 358.516 245 357.316 244.2C356.116 243.267 354.649 242.667 352.916 242.4C351.182 242 349.316 241.8 347.316 241.8H309.316V283C309.182 283 309.716 283.067 310.916 283.2C312.249 283.2 313.916 283.267 315.916 283.4C317.916 283.4 320.049 283.467 322.316 283.6C324.582 283.6 326.649 283.667 328.516 283.8C330.516 283.8 332.049 283.8 333.116 283.8C339.516 283.8 344.582 283.4 348.316 282.6C352.049 281.8 354.849 280.667 356.716 279.2C358.582 277.733 359.782 276 360.316 274C360.849 272 361.116 269.733 361.116 267.2ZM456.458 162C462.991 162 469.258 162.733 475.258 164.2C481.258 165.667 486.591 168.2 491.258 171.8C495.924 175.4 499.591 180.467 502.258 187C504.924 193.4 506.258 201.533 506.258 211.4C506.258 222.067 504.858 230.8 502.058 237.6C499.391 244.267 495.658 249.467 490.858 253.2C486.191 256.8 480.791 259.333 474.658 260.8C468.658 262.133 462.258 262.8 455.458 262.8H419.858V302H397.658V162H456.458ZM419.858 241.8H448.858C454.591 241.8 459.591 241.467 463.858 240.8C468.258 240.133 471.924 238.8 474.858 236.8C477.791 234.667 479.991 231.6 481.458 227.6C482.924 223.6 483.658 218.2 483.658 211.4C483.658 205.133 482.924 200.2 481.458 196.6C479.991 192.867 477.791 190.133 474.858 188.4C471.924 186.533 468.258 185.333 463.858 184.8C459.591 184.267 454.591 184 448.858 184H419.858V241.8ZM521.091 162H543.491V265.2L622.291 162H644.491V302H622.291V200.2L543.491 302H521.091V162ZM684.525 216.2L730.325 162H758.525L709.125 220.4L766.125 302H737.525L694.125 238.4L684.525 250V302H661.325V162H684.525V216.2ZM899.503 302H873.703L861.903 265.2H812.103L800.503 302H775.503L821.903 162H852.903L899.503 302ZM819.703 241.8H854.303L837.103 187.6L819.703 241.8Z" 
+                    fill="url(#gradientTitle_2)"/>
+                    <defs>
+                    <linearGradient id="gradientTitle_1" x1="0" y1="69.5" x2="691" y2="69.5" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#CCA4FB"></stop>
+                        <stop offset="31%" stop-color="#23A6D5"></stop>
+                        <stop offset="70%" stop-color="#3BDDFE"></stop>
+                        <stop offset="100%" stop-color="#23C0D5"></stop>
+                    </linearGradient>
+                    <linearGradient id="gradientTitle_2" x1="0" y1="228.5" x2="905" y2="228.5" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#CCA4FB"></stop>
+                        <stop offset="31%" stop-color="#23A6D5"></stop>
+                        <stop offset="70%" stop-color="#3BDDFE"></stop>
+                        <stop offset="100%" stop-color="#23C0D5"></stop>
+                    </linearGradient>
+                    </defs>
+                </svg>
+
+                <p class="text-[14px] leading-[16.7px] lg:text-[16px] lg:leading-[19px] 2xl:text-[18px] 2xl:leading-[21.5px] 
+                lg:w-[302px] lg:absolute lg:top-[4px] 2xl:top-[17px] lg:right-[14px] xl:right-[30px] 2xl:right-[110px]">
+                Интеллектуальный дистрибьютер игровой периферии, 
+                музыкальных устройств, материалов для печати и&nbsp;аксессуаров от&nbsp;ведущих мировых и&nbsp;российских брендов
+                </p>
+            </div>
+        </div>
+
+        <section class="splide splide_logo pb-[28px] sm:pb-[54.5px] lg:pb-[67px] 2xl:pb-[70px]" aria-label="">
+            <div class="splide__track hidden">
+                <ul class="splide__list flex items-center">
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 cursor-pointer rounded-[20px] 
+                    flex justify-center items-center" onclick="handleSlideClick(this)" data-index="0">
+                        <img class="splide__slide-img h-[62px] sm:h-[82px] lg:h-[110px]" src="./img/brend-6.png" alt="Слайд"> 
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-1.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[62px] sm:h-[82px] lg:h-[110px]" src="./img/brend-6.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Виниловые проигрыватели
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="1">
+                        <img class="splide__slide-img h-[40px] sm:h-[52.5px] lg:h-[70px]" src="./img/brend-3.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-2.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[40px] sm:h-[52.5px] lg:h-[70px]" src="./img/brend-3.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровые кресла
+                                        </p>
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровая периферия
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E]  hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="2">
+                        <img class="splide__slide-img h-[17px] sm:h-[22.5px] lg:h-[30px]" src="./img/brend-2.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-3.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[17px] sm:h-[22.5px] lg:h-[30px]" src="./img/brend-2.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Виниловые проигрыватели
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="3">
+                        <img class="splide__slide-img h-[57px] sm:h-[75px] lg:h-[100px]" src="./img/brend-5.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-4.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[57px] sm:h-[75px] lg:h-[100px]" src="./img/brend-5.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровые кресла и столы
+                                        </p>
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровая периферия
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="4">
+                        <img class="splide__slide-img h-[19px] sm:h-[25.5px] lg:h-[34px]" src="./img/brend-7.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative h-full">
+                                    <video poster="./img/slider-5.png" playsinline loop muted autoplay class="object-cover h-full rounded-[20px] 
+                                    transition ease-out duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                        <source src="video/igpsport.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="slider_moves_block rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[19px] sm:h-[25.5px] lg:h-[34px]" src="./img/brend-7.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Велокомпьютеры
+                                        </p>
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Аксессуары
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="5">
+                        <img class="splide__slide-img h-[54px] sm:h-[71px] lg:h-[95px]" src="./img/brend-8.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-6.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[54px] sm:h-[71px] lg:h-[95px]" src="./img/brend-8.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Массажное оборудование
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="6">
+                        <img class="splide__slide-img h-[39px] sm:h-[51.7px] lg:h-[69px]" src="./img/brend-9.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative h-full">
+                                    <video poster="./img/slider-7.png" playsinline loop muted autoplay class="object-cover h-full rounded-[20px] 
+                                    transition ease-out duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                        <source src="video/reproductor.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="slider_moves_block rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[39px] sm:h-[51.7px] lg:h-[69px]" src="./img/brend-9.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Виниловые проигрыватели
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="7">
+                        <img class="splide__slide-img h-[45.6px] sm:h-[60px] lg:h-[80px]" src="./img/brend-4.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-8.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[45.6px] sm:h-[60px] lg:h-[80px]" src="./img/brend-4.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровые кресла
+                                        </p>
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровые столы
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide bg-[#1F1A2E] hover:bg-[#363048] transition-none duration-300 rounded-[20px] flex 
+                    justify-center items-center cursor-pointer" onclick="handleSlideClick(this)" data-index="8">
+                        <img class="splide__slide-img h-[65px] sm:h-[85.5px] lg:h-[114px]" src="./img/brend-1.png" alt="Слайд">
+                        <div class="splide__slide-content absolute invisible top-0 w-[100%] pr-[38px] pb-[42px] pl-[39px] h-full group">
+                            <div class="h-full w-full absolute top-0 left-0 rounded-[20px] slider_moves overflow-hidden">
+                                <div class="relative">
+                                    <img src="./img/slider-9.png" alt="открытый слайдер" class="rounded-[20px] transition ease-out 
+                                    duration-[300ms] group-hover:duration-[2000ms] group-hover:scale-125">
+                                    <div class="rounded-[20px] absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent via-transparent to-[#1F1A2E]"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-end justify-between relative h-full slider_moves_block">
+                                <div>
+                                    <img class="h-[65px] sm:h-[85.5px] lg:h-[114px]" src="./img/brend-1.png" alt="Слайд">
+                                </div>
+                                <div class="flex items-center gap-[18px]">
+                                    <div class="w-[159px] lg:w-[209px]">
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровые кресла
+                                        </p>
+                                        <p class="text-right text-[#fff] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5px]">
+                                            Игровая периферия
+                                        </p>
+                                    </div>
+                                    <svg class="splide__slide-content-svg w-[19px] h-[19px] lg:w-[26px] lg:h-[26px] bg-[#ffffff] rounded-full" 
+                                    viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13" cy="13" r="13" fill=""/>
+                                        <path d="M11 9L15 13L11 17" stroke="#1F1A2E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="flex justify-center items-center gap-[14px] mt-[18px] sm:mt-[20px] lg:mt-[27px] 2xl:mt-[47px] mr-[-40%] ml-[-40%]">
+                    <p class="current-slide text-[13.49px] leading-[16.13px] lg:text-[18px] lg:leading-[21.53px]"></p>
+                    <div class="border-2 border-[#1F1A2E] rounded-[2px] w-[42px] lg:w-[56px] relative">
+                        <div class="splide_logo-progress border-[#fff] rounded-[2px] absolute top-[-2px] 2xl:top-[-1.5px]"></div>
+                    </div>
+                    <p class="total-slides text-[13.49px] leading-[16.13px] lg:text-[18px] lg:leading-[21.53px]"></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="hidden popUp bg-black bg-opacity-50 fixed top-0 right-0 bottom-0 left-0 flex justify-center items-center z-50">
+            <div class="popUp__wrapper absolute top-0 left-0 right-0 bottom-0 overflow-auto">
+                <div class="w-full h-full sm:h-auto lg:w-[1000px] bg-[#1F1A2E] relative mx-auto" id="slider">
+                    <section class="splide splide_content h-full gap-[18px] sm:gap-[28px]" aria-label="">
+                        <div class="splide__track flex flex-col h-full relative">
+                            <ul class="splide__list">
+                                <li class="splide__slide" data-index="0">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-1.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-112px] sm:mt-[-189px]">
+                                                    <img class="h-[90px] sm:h-[150px]" src="./img/modal-brend-1.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">ALIVE AUDIO</span>&nbsp;&mdash; молодой британский 
+                                                    бренд аудио продукции, чья философия строится на&nbsp;желании сохранить 
+                                                    подлинные ценности в&nbsp;нашей стремительной жизни, наполненной современными технологиями</p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Нас вдохновляет пульс нашей планеты, живое, 
+                                                    а&nbsp;не&nbsp;виртуальное общение с&nbsp;теми, кто нам дорог, сила великого искусства, стиль и&nbsp;мода, и, конечно&nbsp;же, 
+                                                    наша главная страсть&nbsp;&mdash; это музыка! Именно музыка правит балом нашей жизни, создавая настроение и&nbsp;эмоции.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="1">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-2.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-49px] sm:mt-[-83px]">
+                                                    <img class="h-[25.7px] sm:h-[42.8px]" src="./img/modal-brend-2.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">COUGAR</span>&nbsp;&mdash; Молодой, активно развивающийся производитель игровой 
+                                                    периферии высочайшего качества. бренд cougar запущен в&nbsp;2007 году компанией hec group, самым крупным 
+                                                    в&nbsp;мире производителем oem корпусов и&nbsp;блоков питания для мировых лидеров компьютерного рынка</p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px]  mt-[12px] sm:mt-[19px] lg:mt-[30px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni, 
+                                                    amet earum, obcaecati necessitatibus eaque et&nbsp;impedit quisquam minima itaque numquam distinctio? 
+                                                    Incidunt culpa aut dicta nam recusandae. Laborum, numquam.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="2">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-3.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-49px] sm:mt-[-83px]">
+                                                    <img class="h-[25px] sm:h-[42px]" src="./img/modal-brend-3.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">LENCO</span>&nbsp;&mdash; Это идеальный друг, который дарит настроение и&nbsp;эмоции
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">На&nbsp;протяжении вот уже 70&nbsp;лет Lenco ассоциируется 
+                                                    со&nbsp;швейцарской точностью в&nbsp;сфере Hi-Fi и&nbsp;потребительской электроники. Основное направление развития бренда 
+                                                    в&nbsp;современном мире это &laquo;умная техника&raquo;, которая включает в&nbsp;себя виниловые проигрыватели, радиоприемники, 
+                                                    колонки и&nbsp;многое другое. Все устройства Lenco производятся на&nbsp;собственных фабриках, где используется только 
+                                                    современное оборудование, гарантирующее высокое качество и&nbsp;надежность.</p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Вся продукция Lenco характеризуется инновационным 
+                                                    дизайном с&nbsp;нотками ностальгии, использованием высоких технологий и&nbsp;ориентирована 
+                                                    на&nbsp;удовлетворение всех пользовательских запросов без ущерба для бюджета.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="3">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-4.png" alt="открытый слайдер" class=" object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-56px] sm:mt-[-95px]">
+                                                    <img class="h-[34px] sm:h-[56.7px]" src="./img/modal-brend-4.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">GAMELAB</span>&nbsp;&mdash; Это бренд современной игровой мебели, созданный профессионалами своего дела.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Более 11&nbsp;лет опыта в&nbsp;продажах и&nbsp;разработке игровых продуктов 
+                                                    для современных игроков позволили добиться идеального сочетания цены и&nbsp;качества.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="4">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <video poster="./img/bg-slider-5.png" playsinline loop muted autoplay class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                    <source src="video/igpsport.mp4" type="video/mp4">
+                                                </video>
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-54px] sm:mt-[-92px]">
+                                                    <img class="h-[30.6px] sm:h-[51px]" src="./img/modal-brend-5.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">IGPSORT</span>&nbsp;&mdash; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                    Odio similique repellat libero magnam adipisci alias nesciunt praesentium porro! Ipsum tenetur 
+                                                    officiis harum ex&nbsp;alias ipsam tempora nostrum saepe vel! Maiores, sapiente atque dolorum cumque 
+                                                    rerum veritatis accusamus pariatur excepturi non.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Нас вдохновляет пульс нашей планеты, живое, 
+                                                    а&nbsp;не&nbsp;виртуальное общение с&nbsp;теми, кто нам дорог, сила великого искусства, стиль и&nbsp;мода, и, конечно&nbsp;же, 
+                                                    наша главная страсть&nbsp;&mdash; это музыка! Именно музыка правит балом нашей жизни, создавая настроение и&nbsp;эмоции.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="5">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-6.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-67.9px] sm:mt-[-115px]">
+                                                    <img class="h-[44.9px] sm:h-[74.8px]" src="./img/modal-brend-6.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                    <span class="uppercase">HELST</span>&nbsp;&mdash; международный бренд потребительской электроники для дома и&nbsp;офиса,
+                                                    в&nbsp;котором идеально сочетаются передовые технологии, качественные материалы и&nbsp;продуманность использования.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">На&nbsp;протяжении вот уже 70&nbsp;лет Lenco ассоциируется со&nbsp;швейцарской точностью 
+                                                    в&nbsp;сфере Hi-Fi и&nbsp;потребительской электроники. Основное направление развития бренда в&nbsp;современном мире это &laquo;умная техника&raquo;, которая 
+                                                    включает в&nbsp;себя виниловые проигрыватели, радиоприемники, колонки и&nbsp;многое другое. Все устройства Lenco производятся на&nbsp;собственных 
+                                                    фабриках, где используется только современное оборудование, гарантирующее высокое качество и&nbsp;надежность.</p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Вся продукция Lenco характеризуется инновационным 
+                                                    дизайном с&nbsp;нотками ностальгии, использованием высоких технологий и&nbsp;ориентирована 
+                                                    на&nbsp;удовлетворение всех пользовательских запросов без ущерба для бюджета.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="6">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <video poster="./img/bg-slider-7.png" playsinline loop muted autoplay class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                    <source src="video/reproductor.mp4" type="video/mp4">
+                                                </video>
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-75.5px] sm:mt-[-128px]">
+                                                    <img class="h-[53.4px] sm:h-[89px]" src="./img/modal-brend-7.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                        <span class="uppercase">Reproductor</span>&nbsp;&mdash; Это бренд современной игровой мебели, созданный профессионалами своего дела.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Более 11&nbsp;лет опыта в&nbsp;продажах и&nbsp;разработке игровых продуктов 
+                                                    для современных игроков позволили добиться идеального сочетания цены и&nbsp;качества.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="7">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-8.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-53.7px] sm:mt-[-91px]">
+                                                    <img class="h-[30.6px] sm:h-[51px]" src="./img/modal-brend-8.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                        <span class="uppercase">THUNDERX3</span>&nbsp;&mdash; Бренд известной тайваньской компании Aerocool, ведущего мирового производителя
+                                                        корпусов, блоков питания, аксессуаров и&nbsp;периферии для компьютеров.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">AEROCOOL была основана в&nbsp;2001&nbsp;году, продукция компании AEROCOOL 
+                                                    отличается инновационными решениями и&nbsp;уникальным дизайном. Бренд Aerocool выбирают геймеры и&nbsp;энтузиасты из&nbsp;разных уголков 
+                                                    земного шара.
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">Почему ThunderX3?
+                                                    Гроза, сила природы, одно из&nbsp;самых грозных и&nbsp;мощных явлений на&nbsp;Земле
+                                                    В&nbsp;процессе эволюции человечество открыло способы обуздывать энергию и&nbsp;использовать силу природы в&nbsp;своих целях
+                                                    Энергия грозы проникла в&nbsp;мир гейминга и&nbsp;открыла новую эру в&nbsp;его эволюции
+                                                    ThunderX3 преобразует энергию грозы в&nbsp;энергию безоговорочной победы над противником. Враг будет разбит, победа будет за&nbsp;тобой.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide" data-index="8">
+                                    <div class="flex flex-col justify-between h-full">
+                                        <div>
+                                            <div class="relative">
+                                                <img src="./img/bg-slider-9.png" alt="открытый слайдер" class="object-cover w-full h-[184px] sm:h-[396px]">
+                                                <div class="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-[#1F1A2E]"></div>
+                                            </div>
+                                            <div class="relative pt-[36px] sm:pt-[48px] lg:pt-[66px] pr-[32px] pl-[36px] sm:px-[76px] lg:pr-[60px] lg:pl-[65.8px]">
+                                                <div class="absolute mt-[-41px] sm:mt-[-70px]">
+                                                    <img class="h-[17.4px] sm:h-[29px]" src="./img/modal-brend-9.png" alt="Слайд">
+                                                </div>
+                                                <div class="my-custom-scrollbar h-[243px] sm:h-[331px] overflow-y-auto 
+                                                pr-[19px] sm:pr-[22px] 2xl:pr-[31px]">
+                                                    <p class="text-[16px] leading-[19px] sm:text-[24px] sm:leading-[28.7px]
+                                                    lg:text-[36px] lg:leading-[43px]">
+                                                        <span class="uppercase">ZONE 51</span>&nbsp;&mdash; результат работы профессионалов со&nbsp;всего мира, которые 
+                                                        создавали и&nbsp;продавали игровые кресла и&nbsp;периферию в&nbsp;течение 11&nbsp;лет и&nbsp;досконально изучили все нюансы 
+                                                        игровых продуктов и&nbsp;потребности аудитории.
+                                                    </p>
+                                                    <p class="text-[12px] leading-[14px] sm:text-[16px] sm:leading-[19px] lg:text-[18px] 
+                                                    lg:leading-[21.5px] mt-[12px] sm:mt-[19px] lg:mt-[30px]">ZONE 51&nbsp;&mdash; это игровые кресла, периферия и 
+                                                    другие продукты, столь нужные современному геймеру.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="pt-[18px] sm:pt-[39px] pr-[32px] pb-[36px] pl-[36px] sm:px-[76px] sm:pb-[77px] lg:pr-[60px] lg:pb-[58px] lg:pl-[65.8px]">
+                                <div class="flex flex-col sm:flex-row justify-between gap-y-[20px] sm:gap-y-0">
+                                    <div class="order-2 sm:order-1 bg-[#000000] h-[32px] flex items-center justify-between 
+                                    gap-[10px] rounded-[25px]">
+                                        <div class="h-[32px] w-[35px] flex items-center justify-center group splide_content-prev">
+                                            <svg class="stroke-white group-hover:stroke-[#37DEFD]" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 9L1 5L5 1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                        <p class="splide_content-counter text-nowrap text-[14px] leading-[16.7px] text-center w-[51px]"></p>
+                                        <div class="h-[32px] w-[35px] flex items-center justify-center group splide_content-next"> 
+                                            <svg class="stroke-white group-hover:stroke-[#37DEFD]" width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1.59961 1L5.59961 5L1.59961 9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>  
+                                        </div>
+                                    </div>
+                                    <div class="order-1 sm:order-2 flex items-center gap-[15px]">
+                                        <div class="popUp-pochta gradient-background-pochta rounded-[16px] px-[15px] h-[32px] flex items-center justify-center cursor-pointer 
+                                        uppercase text-[14px] leading-[16.7px] text-[#000000]">
+                                            <a href=""></a>
+                                        </div>
+                                        <a href="" class="popUp-vk group w-[32px] h-[32px] flex items-center justify-center rounded-[25px] bg-[#000000] 
+                                        cursor-pointer gradient-background">
+                                            <svg class="fill-white group-hover:fill-black" width="13" height="9" viewBox="0 0 13 9" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.08374 8.5C2.64097 8.5 0.109813 5.49739 0.00390625 0.5H2.22794C2.30207 4.1658 3.93833 5.72193 5.24097 6.04047V0.5H7.33792V3.66449C8.61939 3.52872 9.96969 2.08747 10.4251 0.5H12.522C12.1725 2.453 10.711 3.89426 9.67315 4.48433C10.711 4.96475 12.3791 6.22324 13.0092 8.49478H10.7057C10.208 6.9752 8.97417 5.79504 7.34321 5.63838V8.49478H7.08904L7.08374 8.5Z" />
+                                            </svg>
+                                        </a>
+                                        <a href="" class="popUp-tg group w-[32px] h-[32px] flex items-center justify-center rounded-[25px] bg-[#000000]
+                                        cursor-pointer gradient-background">
+                                            <svg class="fill-white group-hover:fill-black" width="13" height="11" viewBox="0 0 13 11" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.746477 4.85392C0.746477 4.85392 6.09478 2.65869 7.95088 1.88417C8.66123 1.57711 11.0719 0.587196 11.0719 0.587196C11.0719 0.587196 12.1855 0.156399 12.0939 1.20589C12.0618 1.63669 11.8143 3.15365 11.5668 4.79435C11.1956 7.11332 10.7923 9.64769 10.7923 9.64769C10.7923 9.64769 10.7327 10.358 10.2057 10.4818C9.67865 10.6055 8.81247 10.051 8.66123 9.92725C8.53749 9.83559 6.34226 8.44237 5.54024 7.7641C5.32484 7.58078 5.07737 7.20956 5.57232 6.77418C6.68598 5.75218 8.01504 4.48729 8.81705 3.68069C9.18827 3.30947 9.55949 2.44329 8.01504 3.49737C5.8198 5.01433 3.65665 6.43504 3.65665 6.43504C3.65665 6.43504 3.16169 6.7421 2.23594 6.46712C1.31018 6.19215 0.219437 5.81176 0.219437 5.81176C0.219437 5.81176 -0.523001 5.34888 0.746477 4.85392Z" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div onclick="closePopup()" id="closeButton" class="fixed top-[36px] sm:top-[76px] lg:top-[60px] 
+                    z-50 group w-[32px] h-[32px] flex items-center justify-center rounded-[25px] bg-[#000000] cursor-pointer">
+                        <svg class="stroke-white group-hover:stroke-[#37DEFD]" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L9 9" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M1 9L9 1" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="overflow-hidden">
+            <div class="wrapper mx-auto">
+                <p class="text-[24px] leading-[24px] lg:text-[47.5px] lg:leading-[47.5px] 2xl:text-[64px] 2xl:leading-[64px] 
+                px-[35px] sm:px-[76px] lg:px-[77px] 2xl:px-[91px] mb-[37px] sm:mb-[47.7px] lg:mb-[78px] 2xl:mb-0">
+                    Обеспечиваем <span class="gradient-text uppercase">полный цикл</span> поддержки, 
+                    продвижения и&nbsp;сопровождения дистрибутируемых товаров
+                </p>
+            </div>
+            <div class="2xl:pt-[77px] sm:grid sm:grid-cols-[1fr_1fr] mb-[42px] sm:mb-[48px] lg:mb-[88px] 2xl:mb-[94px]
+            lg:gap-[18px] 2xl:gap-[114px] px-[35px] sm:px-[76px] lg:px-0 lg:ml-[130px] xl:ml-[255px] 2xl:ml-[35px] relative">
+                <div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]"> 
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">01</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Дистрибуция, логистика и&nbsp;сертификация продукции на&nbsp;территории России и&nbsp;других стран ЕАЭС</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">02</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Выполнение функций российского представительства для производителей, которые не&nbsp;имеют собственных офисов на&nbsp;территории России</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">03</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Полный цикл финансовой поддержки на&nbsp;всех этапах</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">04</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Обеспечение представленности и&nbsp;продвижение продукции в&nbsp;профильных и&nbsp;непрофильных каналах сбыта</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">05</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Продвижение продукции в&nbsp;федеральных розничных сетях</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">06</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Обеспечение гарантийного и&nbsp;пост-гарантийного обслуживания</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">07</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Создание русскоязычных веб-сайтов по&nbsp;продукции; продвижение в&nbsp;русскоязычных социальных сетях</div>
+                            <div class="step__line absolute rounded-[2px] bg-[#1F1A2E] w-[2px] left-[11px] lg:left-[15px]">
+                                <div class="step__line-inner transition-all duration-500 ease-out rounded-[2px] bg-[#ffffff] w-[100%] h-[0%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step 2xl:flex 2xl:justify-end">
+                        <div class="relative flex gap-[20px] sm:gap-[30px] lg:gap-[40px] pb-[36px] lg:pb-[67px]">
+                            <div class="step__number transition-all duration-200 ease-out bg-custom flex h-[46.5px] w-[24px] lg:w-[32px] lg:h-[62px] justify-center 
+                            px-[5px] lg:px-[7px] py-[15px] lg:py-[20px] rounded-[18.7px] lg:rounded-[25px] items-center 
+                            text-[#000000] text-[13.5px] leading-[16px] lg:text-[18px] lg:leading-[21.5]">08</div>
+                            <div class="step__text transition-all duration-200 ease-out text-[#ffffff] text-[13.5px] leading-[16px] lg:text-[18px] 
+                            lg:leading-[21.5px] sm:w-[281.8px] lg:w-[378px]">Полный комплекс рекламной и&nbsp;PR-поддержки, участие в&nbsp;профильных мероприятиях</div>           
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:absolute sm:right-[-100px] lg:right-[-192px] xl:right-[-140px] 2xl:right-[-90px] lg:pt-[44px] 2xl:pt-0 2xl:mt-[-15px] hidden sm:block">
+                    <svg class="sm:h-[395.77px] lg:h-[794.51px] 2xl:h-[1059.34px]" viewBox="0 0 804 1060" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M276.25 10.0149C276.25 2.31525 284.587 -2.4958 291.254 1.35657L384.819 55.424C387.912 57.2109 389.816 60.5111 389.816 64.0824V171.891C389.816 179.58 381.502 184.392 374.835 180.563L281.269 126.819C278.165 125.036 276.25 121.728 276.25 118.148V10.0149ZM236.495 260.28C243.162 264.128 251.494 259.317 251.494 251.619V143.843C251.494 140.277 249.595 136.981 246.511 135.192L153.338 81.1648C146.671 77.2991 138.321 82.1093 138.321 89.8157V197.925C138.321 201.502 140.232 204.807 143.332 206.591L203.16 241.038L236.495 260.28ZM15.0033 898.443C8.33661 902.295 0 897.484 0 889.784V169.561C0 161.862 8.3366 157.051 15.0033 160.903L108.569 214.97C111.661 216.757 113.566 220.058 113.566 223.629V835.717C113.566 839.288 111.661 842.588 108.569 844.375L15.0033 898.443ZM251.494 915.499C251.494 919.065 249.595 922.361 246.511 924.149L153.338 978.177C146.671 982.043 138.321 977.232 138.321 969.526V861.789C138.321 858.223 140.22 854.927 143.305 853.138L236.478 799.111C243.145 795.245 251.494 800.055 251.494 807.762V915.499ZM138.321 249.362C138.321 241.656 146.671 236.845 153.338 240.711L246.511 294.739C249.595 296.527 251.494 299.823 251.494 303.389V761.715C251.494 761.716 251.494 761.716 251.493 761.717V761.717L239.705 768.789V768.789C239.705 768.79 239.704 768.79 239.703 768.791L153.322 818.677C146.656 822.527 138.321 817.716 138.321 810.018V249.362ZM276.25 1049.33C276.25 1057.03 284.587 1061.84 291.254 1057.99L384.819 1003.92C387.912 1002.13 389.816 998.831 389.816 995.259V887.45C389.816 879.762 381.502 874.95 374.835 878.779L281.269 932.523C278.165 934.306 276.25 937.613 276.25 941.194V1049.33ZM384.819 214.97C387.912 216.757 389.816 220.058 389.816 223.629V232.004V331.386C389.816 339.086 381.48 343.897 374.813 340.044L281.247 285.977C278.155 284.19 276.25 280.89 276.25 277.318V169.561C276.25 161.862 284.587 157.051 291.254 160.903L384.819 214.97ZM370.561 721.628L374.855 719.174C381.521 715.365 389.816 720.179 389.816 727.857V827.335V835.71C389.816 839.282 387.912 842.582 384.819 844.369L291.254 898.436C284.587 902.288 276.25 897.477 276.25 889.778V781.642C276.25 778.063 278.163 774.757 281.266 772.973L370.561 721.628ZM389.816 667.798V391.546V383.165C389.816 379.596 387.915 376.298 384.826 374.51L315.153 334.173L291.24 320.405C284.573 316.567 276.25 321.378 276.25 329.071V730.241C276.25 737.94 284.587 742.752 291.254 738.899L384.819 684.832C387.912 683.045 389.816 679.745 389.816 676.173V667.798ZM389.819 377.098C389.819 377.229 389.678 377.311 389.564 377.245L315.157 334.167L389.734 376.951C389.787 376.981 389.819 377.037 389.819 377.098V377.098ZM804 169.591C804 161.885 795.65 157.075 788.984 160.941L695.811 214.968C692.726 216.757 690.827 220.053 690.827 223.619V835.727C690.827 839.293 692.726 842.589 695.811 844.378L788.984 898.405C795.65 902.271 804 897.461 804 889.754V169.591ZM557.502 924.147C554.41 922.36 552.506 919.06 552.506 915.489V800.785C552.506 796.147 557.506 793.23 561.544 795.512V795.512L661.058 852.751C664.159 854.535 666.072 857.841 666.072 861.419V969.556C666.072 977.256 657.735 982.067 651.068 978.214L557.502 924.147ZM552.506 251.706C552.506 259.385 560.8 264.198 567.467 260.389L596.517 243.789L661.065 206.592C664.163 204.807 666.072 201.503 666.072 197.928V89.7855C666.072 82.0859 657.735 77.2748 651.068 81.1272L557.502 135.195C554.41 136.981 552.506 140.282 552.506 143.853V251.706ZM666.072 810.013C666.072 817.712 657.735 822.523 651.068 818.671L557.502 764.603C554.41 762.817 552.506 759.516 552.506 755.945V303.399C552.506 299.828 554.41 296.528 557.502 294.741L651.068 240.674C657.735 236.821 666.072 241.632 666.072 249.332V810.013ZM429.556 878.788C422.889 874.955 414.572 879.768 414.572 887.457V995.269C414.572 998.835 416.471 1002.13 419.555 1003.92L512.728 1057.95C519.395 1061.81 527.745 1057 527.745 1049.3V941.165C527.745 937.6 525.847 934.304 522.763 932.515L495.915 916.936L429.556 878.788ZM414.572 64.0724C414.572 60.5065 416.471 57.2103 419.555 55.4216L512.728 1.39422C519.395 -2.47151 527.745 2.33869 527.745 10.0451V118.17C527.745 121.739 525.843 125.037 522.755 126.825L482.947 149.871L429.554 180.557C422.888 184.388 414.572 179.576 414.572 171.887V64.0724ZM414.572 232.004V331.356C414.572 339.062 422.921 343.872 429.588 340.007L522.761 285.979C525.846 284.191 527.745 280.894 527.745 277.328V169.591C527.745 161.885 519.395 157.075 512.728 160.941L419.555 214.968C416.471 216.757 414.572 220.053 414.572 223.619V232.004ZM527.745 781.635C527.745 778.06 525.836 774.756 522.738 772.971L429.565 719.267C422.899 715.425 414.572 720.236 414.572 727.931V827.335V835.713C414.572 839.283 416.475 842.582 419.565 844.369L527.327 906.698C527.343 906.708 527.358 906.72 527.372 906.733L527.744 907.105C527.744 907.105 527.745 907.105 527.745 907.104V907.104V781.635ZM419.501 374.499C416.447 376.296 414.572 379.575 414.572 383.119V391.546V667.798V676.183C414.572 679.749 416.471 683.045 419.555 684.834L512.728 738.861C519.395 742.727 527.745 737.917 527.745 730.211V329.064C527.745 321.373 519.425 316.561 512.758 320.396L454.654 353.821L419.501 374.499ZM414.572 377.099C414.572 377.038 414.604 376.983 414.656 376.952L454.654 353.816L414.826 377.244C414.714 377.311 414.572 377.229 414.572 377.099V377.099Z" 
+                        fill="url(#gradientLogo_1)"/>
+                        <defs>
+                        <linearGradient id="gradientLogo_1" x1="804" y1="529.671" x2="0" y2="529.671" gradientUnits="userSpaceOnUse">
+                            <stop offset="0%" stop-color="#CCA4FB"></stop>
+                            <stop offset="31%" stop-color="#23A6D5"></stop>
+                            <stop offset="70%" stop-color="#3BDDFE"></stop>
+                            <stop offset="100%" stop-color="#23C0D5"></stop>
+                        </linearGradient>
+                        </defs>
+                    </svg>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="wrapper mx-auto px-[15px] sm:px-[22px] lg:px-0">
+            <hr class="border-[#1F1A2E] h-[2px]">
+        </div>
+    </main>
+    <footer class="wrapper mx-auto pb-[32px] px-[35px] sm:px-[22px] lg:px-0">
+        <div class="sm:grid sm:grid-cols-[361.7px_167.9px] lg:grid-cols-[445.5px_292px] 2xl:grid-cols-[591px_384px] 
+        justify-between mb-[20px] sm:mb-[17px] lg:mb-[68px] 2xl:mb-[81px]">
+            <div>
+                <p class="text-[12px] leading-[14px] sm:text-[14px] sm:leading-[16.7px] lg:text-[18px] lg:leading-[21.5px] mb-[2px] 
+                sm:mb-[27.7px] lg:mb-[39px]">
+                    По&nbsp;вопросам условий сотрудничества, оптовых ценах и&nbsp;логистической поддержке 
+                    обращайтесь по&nbsp;телефону или по&nbsp;электронной почте
+                    <a href="mailto:opt@-2-b.ru" class="text-nowrap relative gradient-text gradient-text-underlining 
+                    gradient-text-underlining-mail">opt@-2-b.ru</a>
+                </p>
+                <a href="tel:+74957875900" class="gradient-text-underlining relative gradient-text gradient-text-underlining-phone 
+                text-[27px] leading-[44.5px] sm:text-[39px] sm:leading-[49.5px] lg:text-[48px] lg:leading-[48px] 2xl:text-[64px] 
+                2xl:leading-[64px]">+ 7 (495) 787 59 00</a>
+            </div>
+
+            <div class="grid grid-cols-[109px_115px] sm:grid-cols-[1fr] lg:grid-cols-[1fr_1fr] items-end gap-[21px] sm:gap-[40px] mt-[20px] sm:mt-0">
+                <div class="grid grid-cols-[12px_1fr] sm:grid-cols-[12px_134px] lg:block gap-[13px]">
+                    <svg class="w-[12px] h-[12px] lg:mb-[34px] 2xl:mb-[43px]" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"/>
+                        <path d="M8 4.73242V9.00183L10.043 10.0561" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-[12px] leading-[14.3px] sm:text-[14px] sm:leading-[16.7px]
+                    2xl:text-[18px] 2xl:leading-[21.5px]">Понедельник&nbsp;- Пятница 10:00&nbsp;-&nbsp;19:00</p>   
+                </div>
+                <div class="grid grid-cols-[12px_1fr] sm:grid-cols-[9px_134px] lg:block gap-[13px]">
+                    <svg class="w-[12px] h-[12px] lg:mb-[34px] 2xl:mb-[43px]" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.28191 1C3.36279 1 1 3.36279 1 6.28191C1 7.61711 1.49743 8.84105 2.31557 9.77045L6.30809 15L10.5101 9.41702C11.1646 8.53997 11.5638 7.46003 11.5638 6.28191C11.5638 3.36279 9.20103 1 6.28191 1Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+                    </svg>
+                    <p class="text-[12px] leading-[14.3px] sm:text-[14px] sm:leading-[16.7px]
+                    2xl:text-[18px] 2xl:leading-[21.5px]">23458,&nbsp;Москва, ул.&nbsp;Маршала Прошлякова, 30</p>      
+                </div>
+            </div>
+        </div>
+        <p class="footer footnote text-[11px] leading-[13px] sm:text-[12px] sm:leading-[14px] 2xl:text-[14px] 2xl:leading-[16.7px] ">
+            &copy;&nbsp;2024 Бизнес-фабрика. Все права защищены.
+        </p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+
+    <script>
+        
+        // Массив ссылок на email
+        var emails = [
+            "AliveAudio.ru",
+            "cougar-world.ru",
+            "lenco.ru",
+            "gamelab.pro",
+            "igpsport.com/ru",
+            "helst.ru",
+            "???",
+            "thunder-x3.ru",
+            "z51.ru",
+        ];
+
+        // Массив ссылок на VK
+        var vkLinks = [
+            "https://vk.com/aliveaudio",
+            "https://vk.com/cougarworld",
+            "https://vk.com/lenco",
+            "https://vk.com/gamelabpro",
+            "https://vk.com/igpsport",
+            "https://vk.com/helst",
+            "https://vk.com/unknown",
+            "https://vk.com/thunderx3",
+            "https://vk.com/z51",
+        ];
+
+        // Массив ссылок на Telegram
+        var tgLinks = [
+            "https://t.me/aliveaudio",
+            "https://t.me/cougarworld",
+            "https://t.me/lenco",
+            "https://t.me/gamelabpro",
+            "https://t.me/igpsport",
+            "https://t.me/helst",
+            "https://t.me/unknown",
+            "https://t.me/thunderx3",
+            "https://t.me/z51",
+        ];
+
+    </script>
+
+</body>
+</html>
