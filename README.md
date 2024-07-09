@@ -35,9 +35,9 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 Несколько страниц для сайта z51:
 
-[Страница оформления заказа](https://annakarpushina.github.io/z51/index.html)
+[Страница оформления заказа](https://annakarpushina.github.io/z51/index.html) (SCSS + JS)
 
-[Письмо с заказом на почту](https://annakarpushina.github.io/z51/letter.html)
+[Электронное письмо с заказом на почту](https://annakarpushina.github.io/z51/letter.html) (Табличная верстка)
 
 
 Лендинги: 
@@ -46,7 +46,7 @@ CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20
 
 SCSS: [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
 
-Tailwind: [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html)
+Tailwind CSS + JS: [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html) 
 
 Эксперименты:
 
