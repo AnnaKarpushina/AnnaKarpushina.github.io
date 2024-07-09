@@ -5,17 +5,16 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 
 ✔ Проект на Vue.js 3:
-&nbsp;
 
-[Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) (SCSS)
+⇒ [Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) (SCSS)
 
-[Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
+⇒ [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
-[Клон Youtube](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Clone_%D1%83outube)
+⇒ [Клон Youtube](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Clone_%D1%83outube)
 
-[Посты на Options API/Composition API/Vuex](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/A_lot_of_posts) 
+⇒ [Посты на Options API/Composition API/Vuex](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/A_lot_of_posts) 
 
-[Трекер задач на Composition API](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/OnTrack-composition) 
+⇒ [Трекер задач на Composition API](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/OnTrack-composition) 
 
 
 ✔ Проект на Vue.js 3 и Vuex:
