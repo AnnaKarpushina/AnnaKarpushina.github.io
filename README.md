@@ -44,15 +44,15 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 Сайт для Адвокатского бюро на Bootstrap:
 
-[Главная страница](https://annakarpushina.github.io/z51/index.html](https://annakarpushina.github.io/Advokadsoe%20buro/index.html) 💻
+[Главная страница](https://annakarpushina.github.io/Advokadsoe%20buro/index.html) 💻
 
-[Страница услуги](https://annakarpushina.github.io/z51/index.html](https://annakarpushina.github.io/Advokadsoe%20buro/1.html) 💻
+[Страница услуги](https://annakarpushina.github.io/Advokadsoe%20buro/1.html) 💻
 
-[Страница раздела услуги](https://annakarpushina.github.io/z51/index.html](https://annakarpushina.github.io/Advokadsoe%20buro/2.html) 💻
+[Страница раздела услуги](https://annakarpushina.github.io/Advokadsoe%20buro/2.html) 💻
 
-[Страница контактов](https://annakarpushina.github.io/z51/index.html](https://annakarpushina.github.io/Advokadsoe%20buro/3.html) 💻
+[Страница контактов](https://annakarpushina.github.io/Advokadsoe%20buro/3.html) 💻
 
-[Страница О нас](https://annakarpushina.github.io/z51/index.html](https://annakarpushina.github.io/Advokadsoe%20buro/4.html) 💻
+[Страница О нас](https://annakarpushina.github.io/Advokadsoe%20buro/4.html) 💻
 
 
 Лендинги: 
