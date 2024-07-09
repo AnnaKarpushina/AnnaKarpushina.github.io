@@ -5,6 +5,7 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 
 ✔ Проект на Vue.js 3:
+&nbsp;
 
 [Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) (SCSS)
 
