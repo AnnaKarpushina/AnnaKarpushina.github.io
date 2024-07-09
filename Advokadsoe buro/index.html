@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Адвокадское бюро</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-light py-4 shadow-sm position-fixed w-100 " id="top_menu">
+      <div class="container">
+        <a class="icon-link mr-4" href="#">
+          <img src="img/insight-logo.png" alt="Адвокадское бюро" height="50">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="mt-2 mt-md-0 navbar-nav">
+                <a href="index.html" class="nav-item nav-link active mx-lg-3 text-white">Главная</a>
+                <div class="nav-item dropdown jost">
+                    <a href="#" class="nav-link mx-lg-3 dropdown-toggle text-white" data-toggle="dropdown">Услуги</a>
+                    <div class="dropdown-menu">
+                        <a href="1.html" class="dropdown-item">Недвижимость и строительство</a>
+                        <a href="#" class="dropdown-item">Судебно-арбитражная практика</a>
+                        <a href="#" class="dropdown-item">Банкротство</a>
+                        <a href="#" class="dropdown-item">Регистрация и ликвидация</a>
+                        <a href="#" class="dropdown-item">Антимонопольное право и торги</a>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link mx-lg-3 text-white">Публикации</a>
+                <a href="3.html" class="nav-item nav-link mx-lg-3 text-white">Контакты</a>
+            </div>
+
+            <div class="navbar-nav">
+              <div class="d-inline-block geo-block mr-4 mt-3 mt-md-0">
+                <p class="geo-link mb-0 text-warning">г. Москва</p>
+              </div>
+
+              <div class="d-inline-block phone-block mt-3 mt-md-0">
+                <a class="font-weight-bold phone-link text-white" href="#">+7 495 131 11 31</a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </nav>
+
+  	<main class="main py-5 text-white">
+    	<div class="container mx-auto"> <!-- horizontal centering -->
+	      <div class="main-content text-center mt-5"> 
+	        <div class="row">
+	          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+	            <img class="mb-5" src="img/insight-logo.png" alt="Адвокадское бюро" height="150">
+
+	                <div class="main-title">
+	                  <h1 class="font-weight-bold mb-4 text-center">Юридические консультации <br> и адвокатская поддержка</h1>
+	                  <ul class="main-list mb-4 pl-0">
+	                    <li class="mb-1"><span class="text-warning">Решим</span> большинство вопросов</li> 
+	                    <li class="mb-1"><span class="text-warning">Проконсультируем</span> и разберемся в спорных ситуациях</li> 
+	                    <li><span class="text-warning">Сопроводим</span> при участии в торгах</li> 
+	                	</ul>
+	                </div>
+
+			            <a href="#about" class="btn btn-primary btn-lg mb-5">Оставить заявку</a>
+			                
+			            <div class="listau mb-5">
+				            <p class="mb-0 text-warning">Листай ниже</p>
+				              <a class="listau-link mb-5" href="#">
+				                <img src="img/down.svg" alt="Листай ниже" height="30">
+				              </a>
+			            </div> 
+
+	          </div>
+	        </div> <!-- row -->
+	      </div> <!-- main-content -->
+
+	      <div class="footer-content">
+	        <div class="row"> 
+
+		        <div class="col-12 col-md-3 text-center text-md-left mt-2"> 
+		          <div class="footer-block">
+		            <p class="footer-link small">АП «Инсайт» © 2020</p>
+		          </div>
+		        </div>
+
+		        <div class="col-12 col-md-6 text-center"> <!--  -->
+		          <div class="footer-block-geo">
+		            <p class="footer-link small">г. Москва, Нащокинский пер., д. 12, стр. 1 (Гоголевский бул., д. 15)</p>
+		          </div>
+		        </div>
+
+		        <div class="col-12 col-md-3 text-center text-md-right"> <!--  -->
+		          <div class="contact-block">
+		            <a class="contact-link small text-warning" href="#">contact@in-sight.ru</a>
+		          </div>
+		        </div>
+
+	        </div> <!-- row -->
+			  </div> <!-- footer-content -->
+
+      </div> <!-- container -->
+    </main>
+
+    <section class="uslugi pt-5">
+      <div class="container">
+        <div class="section-header text-center">
+		      <h1 class="font-weight-bold mb-5">Сферы наших услуг</h1>
+
+		      <div class="justify-content-center row"> <!-- выравнивания гибких элементов по главной оси -->
+		        <div class="col-12 col-lg-6 mb-4"> 
+		          <div class="card h-100 shadow">
+		            <!-- flex-column - главная ось flex-контейнера такая же, как ось блока -->
+		            <div class="card-body d-flex flex-column justify-content-around uslugi-block">
+		              <h2 class="h3 font-weight-bold py-3">Недвижимость <br> и строительство</h2>
+		              <!-- align-items выравнивает flex-элементы текущей flex-линии таким же образом, как и justify-content, но в перпендикулярном направлении -->
+		              <!-- align-items-center - Центрировать элементы в поперечной оси --> 
+		              <!-- align-content-center - Расположить элементы вокруг центр -->
+		              <div class="align-content-center align-items-center d-block d-xl-flex pb-4 px-4 uslugi-block-p">		
+									  <img src="img/construction 1.png" alt="Недвижимость и строительство" height="110">
+		                <ul class="uslugi-block-li text-left mt-3 mt-xl-0">
+		                  <li class="py-2">структурирование сделок с недвижимостью</li>
+				              <li class="py-2">полное правовое сопровождение сделок 
+				                  (купля-продажа, аренда, залоговые соглашения 
+				                  и другие) от намерения в приобретении 
+				                  до государственной регистрации прав</li>
+				              <li class="py-2">правовая поддержка при взаимодействии 
+				                  с госорганами и подрядными организациями</li>
+				              <li class="py-2">структуризация сделок с проблемными 
+				                  объектами недвижимости</li>
+				              <li class="py-2">решение сложных земельных вопросов </li>
+				            </ul>
+		              </div> <!-- uslugi-block-p -->
+		            </div> <!-- uslugi-block -->
+		          </div> <!-- card -->
+		        </div>
+
+		        <div class="col-12 col-lg-6 mb-4">
+		          <div class="card h-100 shadow">
+		            <div class="card-body d-flex flex-column justify-content-around uslugi-block">
+		              <h2 class="h3 font-weight-bold py-3">Судебно-арбитражная <br> практика</h2>
+		              <div class="align-content-center align-items-center d-block d-xl-flex pb-4 px-4 uslugi-block-p">		
+		                <img src="img/judge 1.png" alt="Судебно-арбитражная практика" height="110">
+		                <ul class="uslugi-block-li text-left mt-3 mt-xl-0">
+			                <li class="py-2">оценка перспектив судебных и арбитражных дел, 
+			                    консультация клиентов</li>
+			                <li class="py-2">представительство в судах и арбитражных судах 
+			                    всех инстанций</li>
+			                <li class="py-2">правовое сопровождение на стадии исполнения 
+			                    судебного акта</li>
+			                <li class="py-2">оценка возможности фактического получения 
+			                    присужденных денежных средств или имущества</li>
+		                </ul>
+		              </div> <!-- uslugi-block-p -->
+		            </div> <!-- uslugi-block -->
+		          </div> <!-- card -->
+		        </div> 
+
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="card h-100 shadow">
+                  <div class="card-body d-flex flex-column justify-content-around uslugi-block">
+                    <h2 class="h3 font-weight-bold py-3">Банкротство</h2>
+                    <div class="align-content-center align-items-center d-block d-xl-flex pb-4 px-4 uslugi-block-p">
+                      <img src="img/money 1.png" alt="Банкротство" height="110">
+                        <ul class="uslugi-block-li text-left mt-3 mt-xl-0">
+                          <li class="py-2">проведение процедур банкротства физических 
+                            и юридических лиц</li>
+                          <li class="py-2">сопровождение процедуры банкротства 
+                            со стороны арбитражного управляющего</li>
+                          <li class="py-2">полное сопровождение клиента в рамах всей 
+                          процедуры банкротства</li>
+                          <li class="py-2">выявление и оспаривание оспоримых сделок</li>
+                          <li class="py-2">привлечение контролирующих лиц 
+                          к субсидиарной ответственности</li>
+                          <li class="py-2">сопровождение банкротства застройщиков, 
+                          сельскохозяйственных организаций, 
+                          трансграничное банкротство </li>
+                        </ul>
+                    </div> <!-- uslugi-block-p -->
+                  </div> <!-- uslugi-block -->
+              </div> <!-- card -->
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="card h-100 shadow">
+                <div class="card-body d-flex flex-column justify-content-around uslugi-block">
+                  <h2 class="h3 font-weight-bold py-3">Регистрация <br> и ликвидация</h2>
+                	  <div class="align-content-center align-items-center d-block d-xl-flex pb-4 px-4 uslugi-block-p">
+                		<img src="img/contract 1.png" alt="Регистрация и ликвидация" height="110">
+                  		<ul class="uslugi-block-li text-left mt-3 mt-xl-0">
+                          <li class="py-2">подготовка полного комплекта документов для 
+                          регистрации юридического лица </li>
+                          или индивидуального предпринимателя 
+                          <li class="py-2">правовое сопровождение при открытии бизнеса </li>
+                          <li class="py-2">проведение реорганизации и ликвидации 
+                          юридических лиц </li>
+                          <li class="py-2">сопровождение сделок по купле-продаже долей 
+                          или акций юридических лиц </li>
+                        </ul>
+                	  </div> <!-- uslugi-block-p -->
+                </div>  <!-- uslugi-block -->
+              </div> <!-- card -->
+            </div>  
+                
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="card h-100 shadow">                
+              	<div class="card-body d-flex flex-column justify-content-around uslugi-block">
+                	<h2 class="h3 font-weight-bold py-3">Антимонопольное право <br> и торги</h2>
+                		<div class="align-content-center align-items-center d-block d-xl-flex pb-4 px-4 uslugi-block-p">
+                			<img src="img/mace 1.png" alt="Антимонопольное право и торги" height="110">
+                  			<ul class="uslugi-block-li text-left mt-3 mt-xl-0">
+                          <li class="py-2">сопровождение клиента при участии в торгах по 
+                                банкротству, коммерческих и государственных 
+                                закупках </li>
+                          <li class="py-2">анализ торговых процедур, выявление возможных   
+                                рисков для клиента </li>
+                          <li class="py-2">правовое сопровождение при антимонопольных  
+                                спорах </li>
+                          <li class="py-2">оспаривание результатов торгов в ФАС России и 
+                                арбитражных судах </li>
+                          <li class="py-2">сопровождение сделки по результатам торгов </li>
+                        </ul>
+             				</div> <!-- uslugi-block-p -->
+            		</div> <!-- uslugi-block -->
+              </div> <!-- card -->
+            </div>	
+
+          </div> <!-- row -->
+        </div> <!-- section-header -->
+
+        <div class="section-header text-center row my-5">
+          <div class="container">
+            <h1 class="mx-auto font-weight-bold mb-5">Юридические услуги в Москве от профессионалов</h1>
+            <div class="row">
+              <div class="align-content-center col-12 col-lg-3 col-md-4 d-flex">
+                <img src="img/logo-black.svg" alt="Адвокадское бюро" class="align-self-center mb-4 mb-lg-0 mx-auto mx-lg-0 mr-lg-2" height="150">
+              </div>
+
+              <div class="col-12 col-md-8 col-lg-9">
+                <div class="logo d-flex text-justify">
+                  <p>
+                    Не секрет, что основой успешной работы любого предприятия является качественная юридическая поддержка. Многим фирмам в повседневной деятельности постоянно приходится сталкиваться с решением сложных юридических задач. Обратиться за помощью к профессионалам – самый разумный вариант в таком случае. Квалифицированная помощь юристов поможет организации избежать рисков, которые могут возникнуть при самостоятельном решении вопросов, в том числе избежать значительных финансовых потерь. Оценить качественную работу профессионалов Вы можете, обратившись к специалистам нашей юридической компании по мере возникновения правовых вопросов или, заключив договор абонентского юридического обслуживания, предполагающий комплексное юридическое сопровождение деятельности фирмы. Компании, стоящие на нашем абонентском юридическом обслуживании, практически не подвержены рискам выездных и камеральных налоговых проверок. Абонентское юридическое обслуживание повышает экономическую эффективность фирмы не менее чем на 20%.
+                  </p>
+                </div> <!-- logo -->
+              </div> 
+
+            </div> <!-- row -->
+          </div> <!-- container -->
+          
+        </div> <!-- section-header -->
+      </div> <!-- container -->
+
+      <div id="main-compania">
+        <div class="container py-4">
+          <div class="row">
+            <h1 class="font-weight-bold py-4 px-5 text-left">О компании «IN-SIGHT»</h1>
+              <div class="col-12 col-lg-8 px-5">
+                <p>
+                  Вас когда-нибудь посещала мысль, что ваша компания — это динамично развивающийся молодой коллектив профессионалов? Признавайтесь, вы спасали планету в корпоративной миссии, писали цель компании и обещали служить гуманистическим идеалам человечества путем продажи продукта по самым выгодным ценам.
+                </p>
+                <p>
+                  Написать текст в раздел «О нас» (блок может называться «О компании», «О проекте», «О детском садике “Глаз Саурона”», но суть остается той же) – задача не из легких. Казалось бы, встань фотогенично, похвали себя со всех сторон – вот тебе и текст. Но такая самопрезентация положительных эмоций не нагонит: в лучшем случае пользователю просто станет скучно, в худшем – он решит, что вы навязчивый нарцисс.
+                </p>
+                <p>
+                  Не нужно создавать раздел ради того, чтоб он просто был: текст «О нас» – это ваше позиционирование. То самое первое впечатление, которое не перезагрузишь и не изменишь. Давайте отбросим штампованное бахвальство и научимся писать так, чтоб с нами хотелось иметь дело в дальнейшем.
+                </p>
+              </div>
+
+              <div class="align-content-center col-12 col-lg-4 text-center my-4">
+                <img src="img/bg-main.jpg" alt="О компании" class="align-self-center mb-4 mb-lg-0 mx-auto mx-lg-0 mr-lg-2" height="200">
+              </div>  
+
+              <div class="row col-12 text-center pb-4">
+                <div class="col-12 col-md-4">
+                  <img class="mb-4 mt-5" src="img/suitcase.svg" alt="Опытные специалисты">
+                  <h4 class="font-weight-bold">Опытные специалисты</h4>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <img class="mb-4 mt-5" src="img/24-hours.svg" alt="Мы на связи 24/7">
+                  <h4 class="font-weight-bold">Мы на связи 24/7</h4>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <img class="mb-4 mt-5" src="img/libra.svg" alt="Решение в короткие сроки">
+                  <h4 class="font-weight-bold">Решение в короткие сроки</h4>
+                </div>
+              </div> <!-- row -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+      </div> <!-- main-compania -->
+
+      <div class="section-header text-center shagi pb-4">
+        <div class="container">
+          <div class="my-5">
+            <h2 class="font-weight-bold">Шесть шагов к результату</h2>
+          </div> 
+
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 shadow-sm text-left">
+                <div class="card-body d-flex px-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">1 шаг</h1>
+                  <img height="90" src="img/step1.svg" alt="1 шаг">
+                </div>
+                <p class="font-weight-bold">
+                  Позвоните нам или оставьте заявку на сайте
+                </p>
+              </div> <!-- card -->
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 text-left shadow-sm">
+                <div class="card-body d-flex px-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">2 шаг</h1>
+                  <img height="90" src="img/step2.svg" alt="2 шаг">
+                </div>       
+                <p class="font-weight-bold">
+                  Получаете бесплатную юридическую консультацию
+                </p>
+              </div> <!-- card -->
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 text-left shadow-sm">
+                <div class="card-body d-flex pl-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">3 шаг</h1>
+                  <img height="90" src="img/step3.svg" alt="3 шаг">
+                </div>
+                <p class="font-weight-bold">
+                  Изучаем вашу проблему и предлагаем несколько вариантов ее решения
+                </p>
+              </div> <!-- card -->
+            </div>
+                
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 text-left shadow-sm">
+                <div class="card-body d-flex pl-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">4 шаг</h1>
+                  <img height="90" src="img/step4.svg" alt="4 шаг">
+                </div>
+                <p class="font-weight-bold">
+                  Заключаем с нами договор на оказание юридических услуг
+                </p>
+              </div> <!-- card -->
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 text-left shadow-sm">
+                <div class="card-body d-flex pl-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">5 шаг</h1>
+                  <img height="90" src="img/step5.svg" alt="5 шаг">
+                </div>                      
+                <p class="font-weight-bold">
+                  Сразу после подписания договора и оплаты мы приступаем к работе
+                </p>
+              </div> <!-- card -->
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
+              <div class="card h-100 pb-2 px-4 text-left shadow-sm">
+                <div class="card-body d-flex pl-0 justify-content-between flex-sm-grow-0">
+                  <h1 class="font-weight-bold text-warning">6 шаг</h1>
+                  <img height="90" src="img/step6.svg" alt="6 шаг">
+                </div>                       
+                <p class="font-weight-bold">
+                  Решаем вашу проблему в установленные договором сроки
+                </p>
+              </div> <!-- card -->
+            </div>
+          </div> <!-- row -->
+        
+          <a href="#about" class="btn btn-primary btn-lg mb-5">Оставить заявку</a>      
+
+        </div> <!-- container -->
+      </div> <!-- section-header-->
+            
+    </section> <!-- uslugi -->
+    
+    <main id="main-basement">
+      <div class="container mx-auto py-5"> <!-- horizontal centering -->
+
+        <div class="row mt-2"> 
+
+          <div class="col-12 col-md-4 text-center text-md-left mb-4"> 
+            <div class="geo-block d-inline-block mr-4">
+              <p class="geo-link text-warning">г. Москва</p>
+            </div>
+
+            <div class="phone-block d-inline-block">
+              <a class="font-weight-bold h5 phone-link text-white" href="#">+7 495 131 11 31</a>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-md-4 text-center mb-4"> 
+            <img src="img/insight.svg" alt="Адвокадское бюро">
+            <p class="font-weight-bold text-warning adv">Адвокатское бюро</p>
+          </div>
+
+          <div class="col-12 col-md-4 mt-md-0 text-center text-md-right mb-4">
+            <div class="hamburger-menu">
+              <a class="icon-link" href="#">
+                <img src="img/menu.svg" alt="Меню">
+              </a>
+            </div>
+          </div>
+
+        </div> <!-- row -->
+
+        <div id="main-basement-menu"> 
+          <div class="text-center">
+              <div class="row justify-content-center mt-5 mb-5">
+                
+                <div class="col-12 col-md-4 col-lg-4 mb-2">
+                  <a href="1.html" class="font-weight-bold text-light">Недвижимость <br> и строительство</a>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mb-2">
+                  <a href="#" class="font-weight-bold text-light">Судебно-арбитражная <br> практика</a>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mb-2">
+                  <a href="#" class="font-weight-bold text-light">Банкротство</a>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mb-2">
+                  <a href="#" class="font-weight-bold text-light">Регистрация <br> и ликвидация</a>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 mb-2">
+                  <a href="#" class="font-weight-bold text-light">Антимонопольное право <br> и торги</a>
+                </div>
+
+              </div> <!-- row -->
+
+          </div> <!-- text-center -->
+        </div> <!-- main-basement-menu -->
+
+        <div class="footer-content col-12 my-4">
+          <div class="row"> 
+            <div class="col-12 col-md-3 text-center text-md-left mt-2"> 
+              <div class="footer-block">
+                  <p class="footer-link small text-white">АП «Инсайт» © 2020</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 text-center"> 
+              <div class="footer-block-geo">
+                <p class="footer-link small text-white">г. Москва, Нащокинский пер., д. 12, стр. 1 (Гоголевский бул., д. 15)</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 text-center text-md-right"> <!--  -->
+              <div class="contact-block">
+                <a class="contact-link small text-warning" href="#">contact@in-sight.ru</a>
+              </div>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- footer-content -->
+
+        <div id="main-basement-p">
+          <p class="text-center text-secondary">
+            АП «Инсайт» | Юридический адрес: г. Москва, Нащокинский пер., д. 12, стр. 1 (Гоголевский бул., д. 15) <br>
+            Почтовый адрес: 119019, г. Москва, а/я 97 <br>
+            ОГРН: 1187746675995 / ИНН: 7730245415 / КПП: 773001001 <br>
+            © 2018-2021 АП «Инсайт». Перепечатка, а равно использование материалов с данного сайта, разрешена только с письменного согласия владельца.
+          </p>
+        </div>  
+
+      </div> <!-- container -->
+    </main> <!-- main-basement -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
