@@ -22,15 +22,15 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 Несколько страниц для сайта Getprogress с использование vw:
 
-[Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 
+[Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 💻
 
-[Внутрянка кейса](https://annakarpushina.github.io/Getprogress%20с%20vw/all-weddings.html) 
+[Внутрянка кейса](https://annakarpushina.github.io/Getprogress%20с%20vw/all-weddings.html) 💻
 
-[Общая страница статей](https://annakarpushina.github.io/Getprogress%20с%20vw/blogs.html) 
+[Общая страница статей](https://annakarpushina.github.io/Getprogress%20с%20vw/blogs.html) 💻
 
-[Статья из блога](https://annakarpushina.github.io/Getprogress%20с%20vw/blog.html) 
+[Статья из блога](https://annakarpushina.github.io/Getprogress%20с%20vw/blog.html) 💻
 
-[Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 
+[Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 💻
 
 
 Несколько страниц для сайта z51:
@@ -42,15 +42,15 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 Лендинги: 
 
-CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 
+CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 💻
 
-SCSS: [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/)
+SCSS: [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/) 💻
 
-Tailwind CSS + JS: [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html) 
+Tailwind CSS + JS: [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html) 💻
 
 Эксперименты:
 
-[Шрифты](https://annakarpushina.github.io/14lessondz/src/)
+[Шрифты](https://annakarpushina.github.io/14lessondz/src/) 💻
 
-[Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/)
+[Форма в Pixel Perfekt](https://annakarpushina.github.io/MyPixelPerfekt/src/) 💻
 
