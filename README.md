@@ -3,9 +3,10 @@
 
 P.S. Значок 💻 означает, что можно посмотреть по ссылке, другие проекты нужно скачать и запустить на сервере, приятного просмотра
 
-Проект на Vue.js 3:
 
-SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) 
+✔ Проект на Vue.js 3:
+
+[Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) (SCSS)
 
 [Конструктор тортов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Constructor_cakes)
 
@@ -15,14 +16,15 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 
 [Трекер задач на Composition API](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/OnTrack-composition) 
 
-Проект на Vue.js 3 и Vuex:
+
+✔ Проект на Vue.js 3 и Vuex:
 
 [Интернет магазин телефонов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex) 
 
 [Интернет магазин техники](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex_technology) 
 
 
-Несколько страниц для сайта Getprogress с использование vw:
+✔ Несколько страниц для сайта Getprogress с использование vw:
 
 [Общая страница кейсов](https://annakarpushina.github.io/Getprogress%20с%20vw/cases.html) 💻
 
@@ -35,14 +37,14 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 [Квиз](https://annakarpushina.github.io/Getprogress%20с%20vw/kviz.html) 💻
 
 
-Несколько страниц для сайта z51:
+✔ Несколько страниц для сайта z51:
 
 [Страница оформления заказа](https://annakarpushina.github.io/z51/index.html) (SCSS + JS) 💻
 
 [Электронное письмо с заказом на почту](https://annakarpushina.github.io/z51/letter.html) (Табличная верстка) 💻
 
 
-Сайт для Адвокатского бюро на Bootstrap:
+✔ Сайт для Адвокатского бюро на Bootstrap:
 
 [Главная страница](https://annakarpushina.github.io/Advokadsoe%20buro/index.html) 💻
 
@@ -55,7 +57,7 @@ SCSS: [Дизайн конференция](https://github.com/AnnaKarpushina/An
 [Страница О нас](https://annakarpushina.github.io/Advokadsoe%20buro/4.html) 💻
 
 
-Лендинги: 
+✔ Лендинги: 
 
 CSS: [Фабрика скинали](https://annakarpushina.github.io/landing%20Page/) 💻
 
