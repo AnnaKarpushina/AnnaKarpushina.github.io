@@ -3,8 +3,12 @@
 
 P.S. Значок 💻 означает, что можно посмотреть по ссылке, другие проекты нужно скачать и запустить на сервере, приятного просмотра 
 
+✔ Проекты на React.js 3:
 
-✔ Проект на Vue.js 3:
+➡ [Магазин ламп](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/lamp_store) (SCSS)
+
+
+✔ Проекты на Vue.js 3:
 
 ➡ [Дизайн конференция](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Design%20conference_scss_vue) (SCSS)
 
@@ -17,7 +21,7 @@ P.S. Значок 💻 означает, что можно посмотреть 
 ➡ [Трекер задач на Composition API](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/OnTrack-composition) 
 
 
-✔ Проект на Vue.js 3 и Vuex:
+✔ Проекты на Vue.js 3 и Vuex:
 
 ➡ [Интернет магазин телефонов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/Online_store_vuex) 
 
