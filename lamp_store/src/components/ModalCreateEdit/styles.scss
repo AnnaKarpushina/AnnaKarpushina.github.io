@@ -1,0 +1,38 @@
+.createProduct {
+  h1 {
+    font-weight: 600;
+  }
+  label {
+    display: block;
+    margin: 20px 0 10px 0;
+  }
+  &-input {
+    border: 1px solid #c2c1c1;
+    width: 200px;
+    padding: 7px 12px;
+    outline-color: rgb(141, 193, 219);
+    border-radius: 30px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  &-img {
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+  }
+  button {
+    width: 100%;
+    background-color: #1856e7;
+    border: 1px solid #1856e7;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    font-size: 15px;
+    &:hover {
+      background-color: white;
+      color: #1856e7;
+      transition: all 0.3s ease;
+    }
+  }
+}
