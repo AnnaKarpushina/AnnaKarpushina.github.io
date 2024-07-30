@@ -1,0 +1,103 @@
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+  position: fixed;
+  top: 0;
+  background: white;
+}
+
+.menu {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-active {
+    background: #e0dddd;
+    font-weight: 600;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #e0dddd;
+      filter: drop-shadow(0 1px 0 #bdbcbc);
+    }
+  }
+  &_store {
+    position: relative;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    &:hover {
+      background: #e0dddd;
+      cursor: pointer;
+    }
+  }
+  &_options {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    &-singUp {
+      position: relative;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: 500;
+
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+    }
+    &-signIn {
+      position: relative;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: 500;
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+    }
+    &-cart {
+      position: relative;
+      height: 52px;
+      display: grid;
+      gap: 2px;
+      align-items: center;
+      grid-template-columns: 20px 1fr;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-weight: 500;
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .menu {
+    font-size: 13.5px;
+    &_options {
+      gap: 10px;
+    }
+  }
+}

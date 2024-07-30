@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Carattere;
+  src: url("../../font/Carattere-Regular.eot");
+  src: local("Carattere Regular"), local("Carattere-Regular"),
+    url("../../font/Carattere-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../../font/Carattere-Regular.woff2") format("woff2"),
+    url("../../font/Carattere-Regular.woff") format("woff"),
+    url("../../font/Carattere-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Carattere;
+  font-size: 70px;
+  letter-spacing: 10px;
+  &_img {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .title {
+    gap: 10px;
+    font-size: 40px;
+    letter-spacing: 8px;
+    &_img {
+      height: 45px;
+    }
+  }
+}
