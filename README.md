@@ -76,19 +76,19 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 ➡ [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html) (Tailwind CSS + JS) 💻
 
-➡ https://meets.tender.one/ (Bootstrap) 💻
+➡ [Проведение собраний кредиторов](https://meets.tender.one/) (Bootstrap) 💻
 
-➡ https://ekkot.ru/ (Tailwind CSS + ModX) 💻
+➡ [Сайт дизайнера](https://ekkot.ru/) (Tailwind CSS + ModX) 💻
 
-➡ https://umk-web.com/ (Tailwind CSS + ModX) 💻
+➡ [Южная маркетинговая компания](https://umk-web.com/) (Tailwind CSS + ModX) 💻
 
-➡ https://sptech86.ru/ (Tailwind CSS) 💻
+➡ [Аренда и услуги спецтехники](https://sptech86.ru/) (Tailwind CSS) 💻
 
-➡ https://villamaralis.ru/ (Tailwind CSS) 💻
+➡ [Отель VILLA MARALIS](https://villamaralis.ru/) (Tailwind CSS) 💻
 
-➡ https://xn--80aag4afd1b.xn--p1ai/ (Tailwind CSS + ModX) 💻
+➡ [Аренда квартир](https://xn--80aag4afd1b.xn--p1ai/) (Tailwind CSS + ModX) 💻
 
-➡ https://mebelmask.ru/ (Tailwind CSS + ModX + MiniShop2) 💻
+➡ [Каталог мебели](https://mebelmask.ru/) (Tailwind CSS + ModX + MiniShop2) 💻
 
 
 ✔ Эксперименты:
