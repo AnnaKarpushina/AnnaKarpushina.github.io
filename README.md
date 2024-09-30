@@ -3,22 +3,6 @@
 
 P.S. Значок 💻 означает, что можно посмотреть по ссылке, другие проекты нужно скачать и запустить на сервере, приятного просмотра 
 
-✔ Ссылки:
-
-➡ https://meets.tender.one/ (Bootstrap) 💻
-
-➡ https://ekkot.ru/ (Tailwind CSS + ModX) 💻
-
-➡ https://umk-web.com/ (Tailwind CSS + ModX) 💻
-
-➡ https://sptech86.ru/ (Tailwind CSS) 💻
-
-➡ https://villamaralis.ru/ (Tailwind CSS) 💻
-
-➡ https://xn--80aag4afd1b.xn--p1ai/ (Tailwind CSS + ModX) 💻
-
-➡ https://mebelmask.ru/ (Tailwind CSS + ModX + MiniShop2) 💻
-
 
 ✔ Проекты на React.js + TS:
 
@@ -85,6 +69,20 @@ P.S. Значок 💻 означает, что можно посмотреть 
 ➡ [Штукатурка стен](https://annakarpushina.github.io/ShtukaturkaSten/src/) (SCSS) 💻
 
 ➡ [Бизнес фабрика](https://annakarpushina.github.io/f2b/index.html) (Tailwind CSS + JS) 💻
+
+➡ https://meets.tender.one/ (Bootstrap) 💻
+
+➡ https://ekkot.ru/ (Tailwind CSS + ModX) 💻
+
+➡ https://umk-web.com/ (Tailwind CSS + ModX) 💻
+
+➡ https://sptech86.ru/ (Tailwind CSS) 💻
+
+➡ https://villamaralis.ru/ (Tailwind CSS) 💻
+
+➡ https://xn--80aag4afd1b.xn--p1ai/ (Tailwind CSS + ModX) 💻
+
+➡ https://mebelmask.ru/ (Tailwind CSS + ModX + MiniShop2) 💻
 
 
 ✔ Эксперименты:
