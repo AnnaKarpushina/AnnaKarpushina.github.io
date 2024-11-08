@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  lamps-app:
+    container_name: lamps-app
+    build:                                                    # параметры сборки образа Docker
+      context: .                                              # . - указывает на каталог, который будет использоваться как контекст сборки для Docker
+    ports:
+      - "5173:5173"
+    restart: always                                           # контейнер будет перезапускаться автоматически, если он упадет
+

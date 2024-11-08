@@ -1,0 +1,21 @@
+.lamps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (width <= 1023px) {
+  .lamps {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}
+
+@media (width <= 600px) {
+  .lamps {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}

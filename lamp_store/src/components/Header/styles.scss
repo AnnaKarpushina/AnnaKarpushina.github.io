@@ -1,0 +1,115 @@
+header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+
+  &-active {
+    background: #e0dddd;
+    font-weight: 600;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border-top: 10px solid #e0dddd;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      filter: drop-shadow(0 1px 0 #bdbcbc);
+      transform: translateX(-50%);
+    }
+  }
+
+  &_store {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 500;
+
+    &:hover {
+      background: #e0dddd;
+      cursor: pointer;
+    }
+  }
+
+  &_options {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+    &-singUp {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 52px;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-weight: 500;
+
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+    }
+
+    &-signIn {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 52px;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-weight: 500;
+
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+    }
+
+    &-cart {
+      position: relative;
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      gap: 2px;
+      align-items: center;
+      height: 52px;
+      padding-right: 15px;
+      padding-left: 15px;
+      font-weight: 500;
+
+      &:hover {
+        background: #e0dddd;
+        cursor: pointer;
+      }
+      
+    }
+  }
+}
+
+@media screen and (width <= 1023px) {
+  .menu {
+    font-size: 13.5px;
+
+    &_options {
+      gap: 10px;
+    }
+  }
+}

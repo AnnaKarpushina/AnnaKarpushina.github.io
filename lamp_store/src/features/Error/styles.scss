@@ -1,0 +1,50 @@
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f8d7da;
+    color: #721c24; 
+    text-align: center; 
+
+    &-title {
+        margin-bottom: 20px;
+        font-size: 150px;
+    }
+
+    &-message {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    &-link {
+        padding: 10px 20px 15px 20px; 
+        border-radius: 5px;
+        background-color: #f5c6cb; 
+        color: #721c24;
+        text-decoration: none; 
+        transition: background-color 0.3s; 
+
+        &:hover {
+            background-color: #f1b0b7; 
+        }
+    }
+    
+}
+
+@media screen and (width <= 1023px) {
+    .error {
+        &-title {
+            font-size: 60px;
+        }
+
+        &-message {
+            font-size: 20px;
+        }
+    }
+  }
+  
+  

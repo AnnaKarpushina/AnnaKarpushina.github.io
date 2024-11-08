@@ -1,0 +1,47 @@
+.cart {
+  margin: 0 50px;
+
+  &_clear {
+    display: flex;
+    justify-content: center;
+  }
+
+  &_total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+
+    &-sum {
+      p {
+        display: inline-block;
+        font-weight: 600;
+      }
+    }
+
+    &-button {
+      padding: 8px 10px;
+      border: 1px solid #383636;
+      border-radius: 5px;
+      background-color: #383636;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        border: 1px solid #383636;
+        background-color: white;
+        color: #383636;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+
+@media screen and (width <= 1023px) {
+  .cart {
+    margin: 0;
+  }
+}
