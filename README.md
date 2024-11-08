@@ -9,6 +9,13 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 ➡ [Магазин ламп](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/lamp_store) (SCSS)
 
+➡ [Прокат велосипедов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/bike_ride-react) (SCSS)
+
+
+✔ Проекты на Angular + TS:
+
+➡ [Прокат велосипедов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/bike_ride-angular) (SCSS)
+
 
 ✔ Проекты на Vue.js 2:
 
