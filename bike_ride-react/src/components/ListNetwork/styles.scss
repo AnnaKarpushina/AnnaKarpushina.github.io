@@ -1,0 +1,26 @@
+.listNetwork {
+  overflow-y: auto;
+  background: rgb(227, 140, 248);
+
+  &_items {
+    min-height: calc(100vh - 86px);
+    padding: 20px 20px 0 20px;
+    border-right: 1px solid #000;
+
+    &_item {
+      margin: 0 0 20px 0;
+      padding: 15px 0;
+      border: 1px solid #000;
+      border-radius: 15px;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(221, 118, 247, 0.5);
+      }
+
+      &.active {
+        background: rgb(221, 118, 247);
+      }
+    }
+  }
+}

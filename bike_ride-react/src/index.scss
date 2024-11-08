@@ -1,0 +1,27 @@
+#root {
+  margin: 0 auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+    
+body {
+  overflow-y: hidden;
+  min-width: 1600px;
+}
+
+.app {
+  position: relative;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 62px);
+  padding-top: 70px;
+  background-color: #bacbf0;
+}

@@ -1,0 +1,81 @@
+.listStations {
+  overflow-y: auto;
+  background-color: #bacbf0;
+
+  &_items {
+    min-height: calc(100vh - 86px);
+
+    &_item {
+      padding: 20px 0;
+      border-bottom: 1px solid #000;
+
+      &-title {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        p {
+          font-weight: bold;
+        }
+
+        &-like {
+          width: 20px;
+        }
+      }
+
+      &-description {
+        margin-bottom: 30px;
+
+        span {
+          font-weight: bold;
+        }
+      }
+
+      &-button {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 5px 25px 8px 25px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        background-color: #7476f7;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 1em;
+        cursor: pointer;
+        transition:
+          background-color 0.25s,
+          border-color 0.25s,
+          transform 0.2s;
+
+        &:hover {
+          background-color: #d1627a;
+          transform: scale(1.05);
+        }
+
+        &:active {
+          transform: scale(0.95);
+        }
+
+        p {
+          color: white;
+        }
+
+        &.del {
+          background-color: #d1627a;
+
+          &:hover {
+            background-color: #7476f7;
+            transition: all 0.3s ease;
+
+          }
+        }
+      }
+    }
+
+    &_notSelected {
+      padding: 20px 0;
+    }
+  }
+}
