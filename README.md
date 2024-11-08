@@ -14,7 +14,7 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 ✔ Проекты на Angular + TS:
 
-➡ [Прокат велосипедов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/bike_ride-angular) (SCSS)
+➡ [Прокат велосипедов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/bike_ride-angular) (SCSS + Ant)
 
 
 ✔ Проекты на Vue.js 2:
