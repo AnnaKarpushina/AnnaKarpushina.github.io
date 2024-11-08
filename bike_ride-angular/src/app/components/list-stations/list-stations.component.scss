@@ -1,0 +1,56 @@
+.listStations {
+  overflow-y: auto;
+  background-color: #bacbf0;
+
+  &_items {
+    min-height: calc(100vh - 86px);
+    padding-top: 10px;
+
+    &_item {
+      padding: 10px 20px;
+      position: relative;
+      &-like {
+        position: absolute;
+        top: 19px;
+        right: 19px;
+      }
+    }
+  }
+}
+
+[nz-typography] {
+  padding: 10px 0;
+}
+
+[nz-button] {
+  padding: 8px 25px 35px 25px;
+  border: 1px solid transparent;
+  background-color: #7476f7;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0 0 0;
+  transition: background-color 0.25s, border-color 0.25s, transform 0.2s;
+
+  &:hover {
+    background-color: #d1627a;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+
+  &.del {
+    background-color: #d1627a;
+
+    &:hover {
+      background-color: #7476f7;
+      transition: all 0.3s ease;
+
+    }
+  }
+}
+
+.ant-card {
+  background: #98b5f3;
+}

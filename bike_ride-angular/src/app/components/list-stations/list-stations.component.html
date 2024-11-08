@@ -1,0 +1,41 @@
+<div *ngIf="isLoading; else listStations" class="loading-container">
+  <app-loading />
+</div>
+<ng-template #listStations>
+  <div class="listStations">
+    <div class="listStations_items">
+      <div *ngIf="!isShowFavorites && !stationsCount"> 
+        <h4 nz-typography>Станция не выбрана</h4>
+      </div>
+      <div
+        *ngFor="let station of showFavoritesStations()"
+        class="listStations_items_item"
+      >
+        <nz-card nzTitle="{{ station.name }}">
+          <div class="listStations_items_item-like">
+            <ng-container *ngIf="isFavorite(station.id)">
+              <span nz-icon [nzType]="'star'" [nzTheme]="'fill'"></span>
+            </ng-container>
+          </div>
+          <p>
+            Кол-во свободных велосипедов на станции: 
+            <span>{{ station.free_bikes }}</span>
+          </p>
+          <button 
+            nz-button 
+            nzShape="round" 
+            [ngClass]="{ del: isFavorite(station.id) }"
+            (click)="onToggleFavorite(station.id)"
+          >
+            <span 
+              nz-icon 
+              [nzType]="isFavorite(station.id) ? 'check-circle' : 'star'" 
+              [nzTheme]="'fill'">
+            </span>
+            {{ isFavorite(station.id) ? 'Убрать из избранного' : 'Добавить в избранное' }}
+          </button>
+        </nz-card>
+      </div>
+    </div>
+  </div>
+</ng-template>

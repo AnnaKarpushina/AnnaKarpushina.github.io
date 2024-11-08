@@ -1,0 +1,24 @@
+<div class="app">
+  <app-header
+    [favoritesCount]="stationsService.favoritesCount"
+    [stationsCount]="stationsService.stationsCount"
+    [activeNetworkName]="networksService.activeNetwork.name"
+    [networkSelected]="networksService.activeNetwork.networkSelected" 
+    [isShowFavorites]="stationsService.isShowFavorites"
+  />
+  <main>
+    <app-list-network
+      class="app-list-network"
+      [networks]="networksService.networks"
+      [activeNetwork]="networksService.activeNetwork"
+      [isLoading]="networksService.isLoadingNetworks"
+    />
+    <app-list-stations
+      class="app-list-stations"
+      [stations]="stationsService.stations"
+      [isLoading]="stationsService.isLoadingStations"
+      [isShowFavorites]="stationsService.isShowFavorites"
+      [stationsCount]="stationsService.stationsCount"
+    />
+  </main>
+</div>

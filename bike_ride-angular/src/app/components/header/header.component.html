@@ -1,0 +1,19 @@
+<div nz-row [nzAlign]="'middle'">
+  <h3 nz-col nzSpan="3" nz-typography>Bicycles App</h3>
+  <div nz-col nzSpan="10" nz-flex [nzGap]="'large'">
+    <p>Кол-во избранных: {{ favoritesCount }}</p>
+    <ng-container *ngIf="networkSelected">
+      <p>Кол-во станций в сети: {{ stationsCount }}</p>
+      <p>{{ activeNetworkName }}</p>
+    </ng-container>
+  </div>
+  <button 
+    nz-button nz-col nzSpan="3" nzOffset="8" 
+    [disabled]="!favoritesCount"
+    (click)="toggleFavoritesView()"
+    [attr.data-tooltip]="!favoritesCount && 'У вас нет избранных'"
+    [ngClass]="{ 'has-tooltip': !favoritesCount, 'active': isShowFavorites }"
+  >
+    <p>Избранные станции</p>
+  </button>
+</div>

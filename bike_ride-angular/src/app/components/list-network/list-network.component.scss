@@ -1,0 +1,28 @@
+.listNetwork {
+  overflow-y: auto;
+  background: #dad9d9;
+  
+  &_items {
+    min-height: calc(100vh - 86px);
+    padding: 20px 20px 0 20px;
+    &-item {
+      background: #dad9d9;
+      color: #000;
+      padding: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #000;
+      margin: 0 0 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      &:hover {
+        background: #cccccc;
+      }
+    
+      &.active {
+        background: #bbbaba;
+      }
+    }
+  }
+}

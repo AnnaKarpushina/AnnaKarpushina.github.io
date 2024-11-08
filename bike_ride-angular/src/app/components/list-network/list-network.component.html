@@ -1,0 +1,17 @@
+<div *ngIf="isLoading; else listNetwork" class="loading-container">
+  <app-loading />
+</div>
+<ng-template #listNetwork>
+  <div class="listNetwork">
+    <div class="listNetwork_items">
+      <div 
+          class="listNetwork_items-item"
+          *ngFor="let network of networks" 
+          (click)="onNetworkClick(network)"
+          [ngClass]="{'active': activeNetwork.id === network.id}"
+        >
+        {{ network.name }}
+      </div>
+    </div>
+  </div>
+</ng-template>
