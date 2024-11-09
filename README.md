@@ -7,7 +7,7 @@ P.S. Значок 💻 означает, что можно посмотреть 
 
 ✔ Проекты на React.js + TS:
 
-➡ [Магазин ламп](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/lamp_store) (SCSS)
+➡ [Магазин ламп](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/lamp_store) (Zustand + Formik + Yup + SCSS)
 
 ➡ [Прокат велосипедов](https://github.com/AnnaKarpushina/AnnaKarpushina.github.io/tree/master/bike_ride-react) (SCSS)
 
